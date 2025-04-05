@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ShoppeWebApp.Data;
+using ShoppeWebApp.Models;
 
 namespace ShoppeWebApp
 {
@@ -15,7 +16,6 @@ namespace ShoppeWebApp
             options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
 
             var app = builder.Build();
-
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {
