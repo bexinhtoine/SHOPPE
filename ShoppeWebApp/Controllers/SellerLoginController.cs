@@ -3,16 +3,17 @@ using ShoppeWebApp.Models.Login;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
+using System.Text;
 using Microsoft.EntityFrameworkCore;
 
 namespace ShoppeWebApp.Controllers
 {
-    public class LoginController : Controller
+    public class SellerLoginController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly ILogger<LoginController> _logger;
+        private readonly ILogger<SellerLoginController> _logger;
 
-        public LoginController(ApplicationDbContext context, ILogger<LoginController> logger)
+        public SellerLoginController(ApplicationDbContext context, ILogger<SellerLoginController> logger)
         {
             _context = context;
             _logger = logger;
@@ -21,38 +22,44 @@ namespace ShoppeWebApp.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View("~/Views/Login/UserLogin.cshtml");
+            //return View("SellerLogin");
+            return View("~/Views/Login/SellerLogin.cshtml");
         }
 
         [HttpPost]
-        public IActionResult Index(LoginViewModel model)
+        public IActionResult Index(SellerLoginViewModel model)
         {
             if (ModelState.IsValid)
             {
+                // Check the username and password against the database
                 var account = _context.Accounts
                     .FirstOrDefault(a => a.Username == model.Username && a.Password == model.Password);
 
                 if (account != null)
                 {
+                    // Authentication successful
                     return RedirectToAction("Index", "Home");
                 }
                 else
                 {
+                    // Authentication failed
                     ModelState.AddModelError(string.Empty, "Nhập sai mật khẩu hoặc tài khoản.");
                 }
             }
 
-            return View("~/Views/Login/UserLogin.cshtml", model);
+            // return View("SellerLogin", model);
+            return View("~/Views/Login/SellerLogin.cshtml", model);
         }
 
         [HttpGet]
         public IActionResult ForgotPassword()
         {
+            //return View("SellerForgotPassword");
             return View("~/Views/ForgotPassword/ForgotPassword.cshtml");
         }
 
         [HttpPost]
-        public IActionResult ForgotPassword(ForgotPasswordViewModel model)
+        public async Task<IActionResult> ForgotPassword(ForgotPasswordViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -63,7 +70,9 @@ namespace ShoppeWebApp.Controllers
 
                     if (account != null)
                     {
-                        // Redirect to Reset Password page
+                        //account.Password = "12345678"; // Reset password logic
+                        //await _context.SaveChangesAsync();
+                        //ViewBag.Message = "Mật khẩu đã được đặt lại thành công.";
                         return RedirectToAction("ResetPassword", new { username = model.Username });
                     }
                     else
@@ -99,25 +108,21 @@ namespace ShoppeWebApp.Controllers
                     var account = await _context.Accounts.FirstOrDefaultAsync(a => a.Username == model.Username);
                     if (account != null)
                     {
-                        _logger.LogInformation("Account found for user: {Username}", model.Username);
                         account.Password = model.NewPassword;
                         try
                         {
-                            _context.Accounts.Update(account); // Ensure the account is marked as modified
                             await _context.SaveChangesAsync();
-                            _logger.LogInformation("Password updated successfully for user: {Username}", model.Username);
                             ViewBag.Message = "Mật khẩu đã được đặt lại thành công.";
-                            return RedirectToAction("Index", "Login");
+                            return RedirectToAction("Index", "SellerLogin");
                         }
                         catch (Exception ex)
                         {
-                            _logger.LogError(ex, "An error occurred while saving the new password for user: {Username}", model.Username);
+                            _logger.LogError(ex, "An error occurred while saving the new password.");
                             ModelState.AddModelError(string.Empty, "Đã xảy ra lỗi khi lưu mật khẩu mới.");
                         }
                     }
                     else
                     {
-                        _logger.LogWarning("Account not found for user: {Username}", model.Username);
                         ModelState.AddModelError(string.Empty, "Tài khoản không tồn tại.");
                     }
                 }
@@ -140,5 +145,11 @@ namespace ShoppeWebApp.Controllers
             return View("~/Views/ForgotPassword/ResetPassword.cshtml", model);
         }
 
+
+
+
     }
 }
+
+
+

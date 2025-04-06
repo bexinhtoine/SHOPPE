@@ -26,3 +26,5 @@ public partial class TaiKhoan
     [InverseProperty("TaiKhoans")]
     public virtual NguoiDung IdNguoiDungNavigation { get; set; } = null!;
 }
+
+
