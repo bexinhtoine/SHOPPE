@@ -15,10 +15,7 @@ namespace ShoppeWebApp.Controllers
 
         public IActionResult Index()
         {
-            return View(new TaiKhoan { 
-                IdNguoiDung = "0", 
-                Username = "nguyennhatking", 
-                Password = "12345678"});
+            return View(); 
         }
 
         public IActionResult Privacy()
