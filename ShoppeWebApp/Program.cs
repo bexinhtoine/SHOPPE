@@ -17,7 +17,6 @@ namespace ShoppeWebApp
                 options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
 
             var app = builder.Build();
-
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
             {

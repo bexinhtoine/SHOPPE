@@ -1,0 +1,10 @@
+﻿@{
+	ViewData["Title"] = "Đăng nhập";
+}
+<h1>Đăng nhập vào Shoppe</h1>
+<form action="/Login/LoginHandle" method="post">
+    @Html.AntiForgeryToken()
+    <input type="text" name="username" placeholder="username" required />
+    <input type="password" name="password" placeholder="password" required />
+    <button type="submit">Đăng nhập</button>
+</form>
