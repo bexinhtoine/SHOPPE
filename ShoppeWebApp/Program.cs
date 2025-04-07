@@ -12,7 +12,8 @@ namespace ShoppeWebApp
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ShoppeWebAppContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
+
 
             var app = builder.Build();
 
