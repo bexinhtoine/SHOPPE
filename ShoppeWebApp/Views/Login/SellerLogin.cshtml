@@ -22,7 +22,7 @@
             @Html.ValidationSummary(true, "", new { @class = "text-danger" })
         </div>
 
-        <form method="post">
+        <form method="post" class="login-form">
             <div class="form-group">
                 <label asp-for="Username">Tên đăng nhập</label>
                 <input asp-for="Username" class="form-control" placeholder="Tên đăng nhập" />
@@ -33,7 +33,6 @@
                 <input asp-for="Password" type="password" class="form-control" placeholder="Mật khẩu" />
                 <span asp-validation-for="Password" class="text-danger"></span>
                 <a asp-controller="SellerLogin" asp-action="ForgotPassword" class="forgot-password">Quên mật khẩu?</a>
-
             </div>
 
             <button type="submit" class="btn btn-primary">ĐĂNG NHẬP</button>
@@ -141,6 +140,12 @@
         font-family: 'Calibri', sans-serif;
     }
 
+    .login-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .btn-primary {
         width: 100%;
         padding: 0.75em;
@@ -151,7 +156,11 @@
         font-size: 1em;
         margin-top: 1em;
         box-sizing: border-box;
-        font-family: 'Calibri', sans-serif;
+        text-align: center;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .footer {
@@ -182,5 +191,3 @@
             padding-left: 0;
         }
 </style>
-
-

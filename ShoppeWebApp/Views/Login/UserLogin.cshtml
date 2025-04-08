@@ -22,21 +22,21 @@
             <input asp-for="Username" class="form-control" placeholder="Tên đăng nhập" />
             <span asp-validation-for="Username" class="text-danger"></span>
         </div>
-         <div class="form-group"> 
-            <label asp-for="Password">Mật khẩu</label> 
-             <input asp-for="Password" type="password" class="form-control" placeholder="Mật khẩu" /> 
-            <span asp-validation-for="Password" class="text-danger"></span> 
+        <div class="form-group">
+            <label asp-for="Password">Mật khẩu</label>
+            <input asp-for="Password" type="password" class="form-control" placeholder="Mật khẩu" />
+            <span asp-validation-for="Password" class="text-danger"></span>
             <a asp-controller="Login" asp-action="ForgotPassword" class="forgot-password">Quên mật khẩu?</a>
+        </div>
 
-        </div> 
-
-        <button type="submit" class="btn btn-primary">ĐĂNG NHẬP</button>
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">ĐĂNG NHẬP</button>
+        </div>
     </form>
 
     <div class="footer">
         <p>Bạn là chủ Shop? <a href="/SellerLogin"> Đăng nhập tại đây</a></p>
     </div>
-
 </div>
 
 @section Scripts {
@@ -53,14 +53,14 @@
         font-family: 'Calibri', sans-serif;
     }
 
-    .login-container h1 {
-        font-size: 3.5em;
-        margin-bottom: 0.5em;
-    }
+        .login-container h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+        }
 
-    .login-container p {
-        margin-bottom: 1em;
-    }
+        .login-container p {
+            margin-bottom: 1em;
+        }
 
     .new-account a {
         text-decoration: underline;
@@ -74,7 +74,7 @@
         padding: 0.25em;
         margin-bottom: 0.25em;
         border-radius: 5px;
-        width: 40%;
+        width: 50%;
         margin: 0 auto 0.25em auto;
     }
 
@@ -113,6 +113,11 @@
         font-size: 1em;
         margin-top: 1em;
         box-sizing: border-box;
+        text-align: center; 
+        line-height: normal; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
     }
 
     .footer {
@@ -141,5 +146,3 @@
             padding-left: 0;
         }
 </style>
-
-
