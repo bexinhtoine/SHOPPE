@@ -401,6 +401,7 @@ FodyWeavers.xsd
 
 # appsettings
 appsettings.json
+appsettings.Development.json
 
 # wwwroot/lib
 **/wwwroot/lib/
