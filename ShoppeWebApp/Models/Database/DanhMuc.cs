@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ShoppeWebApp.Models;
+namespace ShoppeWebApp.Models.Database;
 
 [Table("DanhMuc")]
 public partial class DanhMuc

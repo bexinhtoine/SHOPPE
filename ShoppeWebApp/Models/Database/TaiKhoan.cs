@@ -4,25 +4,27 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ShoppeWebApp.Models;
+namespace ShoppeWebApp.Models.Database;
 
-[Keyless]
-[Table("GioHang")]
-public partial class GioHang
+[Table("TaiKhoan")]
+public partial class TaiKhoan
 {
     [StringLength(10)]
     [Unicode(false)]
     public string IdNguoiDung { get; set; } = null!;
 
-    [StringLength(10)]
+    [Key]
+    [StringLength(30)]
     [Unicode(false)]
-    public string IdSanPham { get; set; } = null!;
+    public string Username { get; set; } = null!;
 
-    public int SoLuong { get; set; }
+    [StringLength(60)]
+    [Unicode(false)]
+    public string Password { get; set; } = null!;
 
     [ForeignKey("IdNguoiDung")]
+    [InverseProperty("TaiKhoans")]
     public virtual NguoiDung IdNguoiDungNavigation { get; set; } = null!;
-
-    [ForeignKey("IdSanPham")]
-    public virtual SanPham IdSanPhamNavigation { get; set; } = null!;
 }
+
+

@@ -9,6 +9,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using ShoppeWebApp.Models.Database;
 
 namespace ShoppeWebApp.Controllers
 {
@@ -26,7 +27,7 @@ namespace ShoppeWebApp.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View("~/Views/Login/UserLogin.cshtml");
+            return View("~/Views/Customer/UserLogin.cshtml");
         }
 
         [HttpPost]
@@ -47,7 +48,7 @@ namespace ShoppeWebApp.Controllers
                 }
             }
 
-            return View("~/Views/Login/UserLogin.cshtml", model);
+            return View("~/Views/Customer/UserLogin.cshtml", model);
         }
 
         [HttpGet]
@@ -113,7 +114,7 @@ namespace ShoppeWebApp.Controllers
         [HttpGet]
         public IActionResult ForgotPassword()
         {
-            return View("~/Views/ForgotPassword/ForgotPassword.cshtml");
+            return View("~/Views/Customer/ForgotPassword.cshtml");
         }
 
         [HttpPost]
@@ -143,14 +144,14 @@ namespace ShoppeWebApp.Controllers
                 }
             }
 
-            return View("~/Views/ForgotPassword/ForgotPassword.cshtml", model);
+            return View("~/Views/Customer/ForgotPassword.cshtml", model);
         }
 
         [HttpGet]
         public IActionResult ResetPassword(string username)
         {
             var model = new ResetPasswordViewModel { Username = username };
-            return View("~/Views/ForgotPassword/ResetPassword.cshtml", model);
+            return View("~/Views/Customer/ResetPassword.cshtml", model);
         }
 
         [HttpPost]
@@ -192,7 +193,7 @@ namespace ShoppeWebApp.Controllers
                 }
             }
 
-            return View("~/Views/ForgotPassword/ResetPassword.cshtml", model);
+            return View("~/Views/Customer/ResetPassword.cshtml", model);
         }
     }
 }

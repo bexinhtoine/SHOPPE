@@ -6,7 +6,7 @@ namespace ShoppeWebApp.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View("~Views/Customer/Register.cshtml");
         }
     }
 }
