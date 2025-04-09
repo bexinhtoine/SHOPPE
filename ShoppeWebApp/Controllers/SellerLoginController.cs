@@ -5,15 +5,16 @@ using Microsoft.Extensions.Logging;
 using System.Threading.Tasks;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
+using ShoppeWebApp.Data;
 
 namespace ShoppeWebApp.Controllers
 {
     public class SellerLoginController : Controller
     {
-        private readonly ApplicationDbContext _context;
+        private readonly ShoppeWebAppContext _context;
         private readonly ILogger<SellerLoginController> _logger;
 
-        public SellerLoginController(ApplicationDbContext context, ILogger<SellerLoginController> logger)
+        public SellerLoginController(ShoppeWebAppContext context, ILogger<SellerLoginController> logger)
         {
             _context = context;
             _logger = logger;
@@ -32,7 +33,7 @@ namespace ShoppeWebApp.Controllers
             if (ModelState.IsValid)
             {
                 // Check the username and password against the database
-                var account = _context.Accounts
+                var account = _context.TaiKhoans
                     .FirstOrDefault(a => a.Username == model.Username && a.Password == model.Password);
 
                 if (account != null)
@@ -65,7 +66,7 @@ namespace ShoppeWebApp.Controllers
             {
                 try
                 {
-                    var account = _context.Accounts
+                    var account = _context.TaiKhoans
                         .FirstOrDefault(a => a.Username == model.Username && a.IdNguoiDungNavigation.Sdt == model.PhoneNumber);
 
                     if (account != null)
@@ -105,7 +106,7 @@ namespace ShoppeWebApp.Controllers
                 // Check if the new password and confirm password fields match
                 if (model.NewPassword == model.ConfirmPassword)
                 {
-                    var account = await _context.Accounts.FirstOrDefaultAsync(a => a.Username == model.Username);
+                    var account = await _context.TaiKhoans.FirstOrDefaultAsync(a => a.Username == model.Username);
                     if (account != null)
                     {
                         account.Password = model.NewPassword;
