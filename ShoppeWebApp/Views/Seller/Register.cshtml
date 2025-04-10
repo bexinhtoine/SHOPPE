@@ -1,4 +1,4 @@
-@model ShoppeWebApp.Models.ViewModels.RegisterViewModel
+@model ShoppeWebApp.Models.Seller.RegisterViewModel
 
 @{
     ViewData["Title"] = "Đăng ký tài khoản";
@@ -90,10 +90,10 @@
         text-align: center;
     }
 
-    .policy-text a {
-        color: #333;
-        text-decoration: underline;
-    }
+        .policy-text a {
+            color: #333;
+            text-decoration: underline;
+        }
 
     .form-footer {
         text-align: center;
@@ -105,8 +105,7 @@
         gap: 12px;
         margin-top: 20px;
     }
-
-    .seller-note {
+    .customer-note {
         text-align: center;
         font-size: 14px;
         margin-bottom: 25px;
@@ -115,10 +114,10 @@
 </style>
 
 <div class="form-wrapper">
-    <div class="form-title">Đăng ký tài khoản người dùng</div>
+    <div class="form-title">Đăng ký tài khoản người bán</div>
 
-    <div class="seller-note">
-        Nếu bạn là <strong>người bán</strong>, hãy <a href="/Seller/Register">đăng ký tại đây</a>.
+    <div class="customer-note">
+        Nếu bạn là <strong>người dùng</strong>, hãy <a href="/Customer/Register">đăng ký tại đây</a>.
     </div>
 
     <form asp-action="Register" method="post">
@@ -145,6 +144,12 @@
             <label asp-for="Sdt" class="form-label"></label>
             <input asp-for="Sdt" class="form-control" />
             <span asp-validation-for="Sdt" class="text-danger"></span>
+        </div>
+
+        <div>
+            <label asp-for="Cccd" class="form-label">CCCD *</label>
+            <input asp-for="Cccd" class="form-control" />
+            <span asp-validation-for="Cccd" class="text-danger"></span>
         </div>
 
         <div>
