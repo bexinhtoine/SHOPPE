@@ -52,66 +52,6 @@ namespace ShoppeWebApp.Controllers
         }
 
         [HttpGet]
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        [HttpPost]
-        public IActionResult Register(NguoiDung model, string MatKhau, string XacNhanMatKhau)
-        {
-            if (MatKhau != XacNhanMatKhau)
-            {
-                ModelState.AddModelError("", "Mật khẩu xác nhận không khớp.");
-                return View(model);
-            }
-
-            var existingUser = _context.NguoiDungs.FirstOrDefault(u => u.Email == model.Email);
-            if (existingUser != null)
-            {
-                ModelState.AddModelError("", "Email đã được sử dụng.");
-                return View(model);
-            }
-
-            var newId = Guid.NewGuid().ToString("N")[..10].ToUpper();
-
-            var nguoiDung = new NguoiDung
-            {
-                IdNguoiDung = newId,
-                HoVaTen = model.HoVaTen,
-                Email = model.Email,
-                Sdt = model.Sdt,
-                Cccd = "000000000000",
-                DiaChi = "Chưa cập nhật",
-                VaiTro = 0,
-                TrangThai = 1,
-                ThoiGianTao = DateTime.Now
-            };
-
-            var taiKhoan = new TaiKhoan
-            {
-                Username = model.Email,
-                Password = MatKhau,
-                IdNguoiDung = newId
-            };
-
-            try
-            {
-                _context.NguoiDungs.Add(nguoiDung);
-                _context.TaiKhoans.Add(taiKhoan);
-                _context.SaveChanges();
-
-                TempData["SuccessMessage"] = "Đăng ký thành công! Vui lòng đăng nhập.";
-                return RedirectToAction("Index");
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", "Đã xảy ra lỗi khi đăng ký: " + ex.Message);
-                return View(model);
-            }
-        }
-
-        [HttpGet]
         public IActionResult ForgotPassword()
         {
             return View("~/Views/Customer/ForgotPassword.cshtml");
