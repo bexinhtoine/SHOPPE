@@ -10,9 +10,6 @@
         height: 100%;
         margin: 0;
         background-color: #f5f6f7;
-        @* display: flex;
-        justify-content: center;
-        align-items: center; *@
     }
 
     .form-wrapper {
@@ -103,50 +100,52 @@
     }
 </style>
 
-<div class="form-wrapper">
-    <div class="form-title">Đăng ký tài khoản cá nhân</div>
-    <form asp-action="Register" method="post">
-        <div>
-            <label asp-for="HoVaTen" class="form-label">Tên chủ tài khoản *</label>
-            <input asp-for="HoVaTen" class="form-control" />
-            <span asp-validation-for="HoVaTen" class="text-danger"></span>
-        </div>
+<div class="d-flex justify-content-center">
+    <div class="form-wrapper ">
+        <div class="form-title">Đăng ký tài khoản cá nhân</div>
+        <form asp-action="Register" method="post">
+            <div>
+                <label asp-for="HoVaTen" class="form-label">Tên chủ tài khoản *</label>
+                <input asp-for="HoVaTen" class="form-control" />
+                <span asp-validation-for="HoVaTen" class="text-danger"></span>
+            </div>
 
-        <div>
-            <label asp-for="Email" class="form-label">Email *</label>
-            <input asp-for="Email" class="form-control" />
-            <span asp-validation-for="Email" class="text-danger"></span>
-        </div>
+            <div>
+                <label asp-for="Email" class="form-label">Email *</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
 
-        <div>
-            <label asp-for="Sdt" class="form-label">Số điện thoại *</label>
-            <input asp-for="Sdt" class="form-control" />
-            <span asp-validation-for="Sdt" class="text-danger"></span>
-        </div>
+            <div>
+                <label asp-for="Sdt" class="form-label">Số điện thoại *</label>
+                <input asp-for="Sdt" class="form-control" />
+                <span asp-validation-for="Sdt" class="text-danger"></span>
+            </div>
 
-        <div>
-            <label class="form-label">Mật khẩu *</label>
-            <input name="MatKhau" type="password" class="form-control" required />
-        </div>
+            <div>
+                <label class="form-label">Mật khẩu *</label>
+                <input name="MatKhau" type="password" class="form-control" required />
+            </div>
 
-        <div>
-            <label class="form-label">Nhập lại mật khẩu *</label>
-            <input name="XacNhanMatKhau" type="password" class="form-control" required />
-        </div>
+            <div>
+                <label class="form-label">Nhập lại mật khẩu *</label>
+                <input name="XacNhanMatKhau" type="password" class="form-control" required />
+            </div>
 
-        <div class="policy-text">
-            Khi nhấn nút <strong>ĐĂNG KÝ</strong> là bạn đã đồng ý và cam kết tuân thủ<br />
-            <a href="#">Thỏa thuận người dùng</a> của chúng tôi.
-        </div>
+            <div class="policy-text">
+                Khi nhấn nút <strong>ĐĂNG KÝ</strong> là bạn đã đồng ý và cam kết tuân thủ<br />
+                <a href="#">Thỏa thuận người dùng</a> của chúng tôi.
+            </div>
 
-        <div class="button-group">
-            <a href="/Login" class="btn btn-outline">Quay lại</a>
-            <button type="submit" class="btn btn-custom">Đăng ký</button>
-        </div>
-    </form>
+            <div class="button-group">
+                <a href="/Login" class="btn btn-outline">Quay lại</a>
+                <button type="submit" class="btn btn-custom">Đăng ký</button>
+            </div>
+        </form>
 
-    <div class="form-footer">
-        <p class="mt-4 mb-0">Bạn đã có tài khoản? <a href="/Login" class="fw-bold text-primary">Đăng nhập</a></p>
+        <div class="form-footer">
+            <p class="mt-4 mb-0">Bạn đã có tài khoản? <a href="/Login" class="fw-bold text-primary">Đăng nhập</a></p>
+        </div>
     </div>
 </div>
 
