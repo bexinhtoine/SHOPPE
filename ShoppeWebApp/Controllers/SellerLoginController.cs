@@ -24,7 +24,7 @@ namespace ShoppeWebApp.Controllers
         public IActionResult Index()
         {
             //return View("SellerLogin");
-            return View("~/Views/Login/SellerLogin.cshtml");
+            return View("~/Views/Seller/SellerLogin.cshtml");
         }
 
         [HttpPost]
@@ -49,14 +49,14 @@ namespace ShoppeWebApp.Controllers
             }
 
             // return View("SellerLogin", model);
-            return View("~/Views/Login/SellerLogin.cshtml", model);
+            return View("~/Views/Seller/SellerLogin.cshtml", model);
         }
 
         [HttpGet]
         public IActionResult ForgotPassword()
         {
             //return View("SellerForgotPassword");
-            return View("~/Views/ForgotPassword/ForgotPassword.cshtml");
+            return View("~/Views/Seller/SellerForgotPassword.cshtml");
         }
 
         [HttpPost]
@@ -88,14 +88,14 @@ namespace ShoppeWebApp.Controllers
                 }
             }
 
-            return View("~/Views/ForgotPassword/ForgotPassword.cshtml", model);
+            return View("~/Views/Seller/SellerForgotPassword.cshtml", model);
         }
 
         [HttpGet]
         public IActionResult ResetPassword(string username)
         {
             var model = new ResetPasswordViewModel { Username = username };
-            return View("~/Views/ForgotPassword/ResetPassword.cshtml", model);
+            return View("~/Views/Seller/SellerResetPassword.cshtml", model);
         }
 
         [HttpPost]
@@ -143,7 +143,7 @@ namespace ShoppeWebApp.Controllers
                 }
             }
 
-            return View("~/Views/ForgotPassword/ResetPassword.cshtml", model);
+            return View("~/Views/Seller/SellerResetPassword.cshtml", model);
         }
 
 

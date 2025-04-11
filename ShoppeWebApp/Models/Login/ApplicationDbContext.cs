@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using ShoppeWebApp.Models.Database;
 
 namespace ShoppeWebApp.Models.Login
 {

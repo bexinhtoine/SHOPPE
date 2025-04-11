@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
 
-namespace ShoppeWebApp.Models;
+namespace ShoppeWebApp.Models.Database;
 
 [PrimaryKey("IdDonHang", "IdSanPham")]
 [Table("ChiTietDonHang")]

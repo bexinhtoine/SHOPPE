@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using ShoppeWebApp.Models;
+using ShoppeWebApp.Models.Database;
 
 namespace ShoppeWebApp.Data;
 
