@@ -1,10 +1,12 @@
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShoppeWebApp.Data;
 using ShoppeWebApp.Models;
 using ShoppeWebApp.ViewModels;
 
-namespace ShoppeWebApp.Area.Seller.Controllers
+namespace ShoppeWebApp.Areas.Seller.Controllers
 {
     [Area("Seller")]
     public class AccountController : Controller
@@ -25,7 +27,7 @@ namespace ShoppeWebApp.Area.Seller.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(ViewModels.Seller.LoginViewModel model)
+        public async Task<IActionResult> Login(ViewModels.Seller.LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -35,8 +37,21 @@ namespace ShoppeWebApp.Area.Seller.Controllers
 
                 if (account != null)
                 {
+                    _context.Entry(account).Reference(i => i.IdNguoiDungNavigation).Load();
+                    if (account.IdNguoiDungNavigation.VaiTro == Constants.SELLER_ROLE)
+                    {
+                        Console.WriteLine($"Dang nhap cho seller, id={account.IdNguoiDung}");
+                        var identity = ViewModels.Authentication.AuthenticationInfo.CreateSellerIdentity(account.IdNguoiDung, account.Username);
+                        var principal = new ClaimsPrincipal(identity);
+                        var properties = new AuthenticationProperties
+                        {
+                            IsPersistent = true,
+                            ExpiresUtc = DateTimeOffset.UtcNow.AddDays(Constants.COOKIE_EXPIRY_DAYS), // 3 days
+                        };
+                        await HttpContext.SignInAsync("SellerSchema", principal, properties);
+                    }
                     // Authentication successful
-                    return RedirectToAction("Index", "Home", new {area=""});
+                    return RedirectToAction("Index", "Home", new {area="Seller"});
                 }
                 else
                 {
@@ -203,7 +218,7 @@ namespace ShoppeWebApp.Area.Seller.Controllers
                 Sdt = model.Sdt,
                 Cccd = model.Cccd,
                 DiaChi = "Chưa cập nhật",
-                VaiTro = 1, // Vai trò người bán
+                VaiTro = Constants.SELLER_ROLE,
                 TrangThai = 1,
                 ThoiGianTao = DateTime.Now
             };
@@ -229,6 +244,12 @@ namespace ShoppeWebApp.Area.Seller.Controllers
                 ModelState.AddModelError("", "Đã xảy ra lỗi khi đăng ký: " + ex.Message);
                 return View(model);
             }
+        }
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync("SellerSchema");
+            return RedirectToAction("Index", "Home", new { area = "Seller" });
         }
     }
 }
