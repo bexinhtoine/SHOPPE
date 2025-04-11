@@ -15,23 +15,24 @@
             <div class="navbar-expand">
                 <div class="container" id="globalheader">
                     <div class="column-container d-flex justify-content-between">
-                        <a href="/" title="Shoppe Shop" class="header-logo-link">
+                        <a asp-area="" asp-controller="Home" asp-action="Index" title="Shoppe Shop" class="header-logo-link">
                             <div class="header-logo">
                                 <img class="logo" src="~/Images/Icons/shoppe_logo128.png"/>
                                 <span class="fw-bold">Shoppe</span>
                             </div>
                         </a>
                         <nav class="d-flex">
-                            <a asp-controller="AllProducts" asp-action="Index" class="tab-link">Tất cả sản phẩm</a>
-                            <a href="#" class="tab-link">Giỏ hàng</a>
-                            <a href="#" class="tab-link">Kênh người bán</a>
-                            <a href="#" class="tab-link">Liên hệ</a>
+                            <a asp-area="Customer" asp-controller="AllProducts" asp-action="Index" class="tab-link">Tất cả sản phẩm</a>
+                            <a asp-area="Customer" asp-controller="ShoppingCart" asp-action="Index" class="tab-link">Giỏ hàng</a>
+                            <a asp-area="" asp-controller="Home" asp-action="Index" class="tab-link">Kênh người bán</a>
+                            <a asp-area="" asp-controller="Home" asp-action="Contact" class="tab-link">Liên hệ</a>
                         </nav>
                         <div class="d-flex auth-cart gap-3">
-                            <a href="/login" class="tab-link align-content-center">Đăng nhập</a>  
-                            <a href="/Customer/Register" class="tab-link">Đăng ký</a> ##check
+                            <a asp-area="Customer" asp-controller="Account" asp-action="Login" class="tab-link align-content-center">Đăng nhập</a>
+                            <a asp-area="Customer" asp-controller="Account" asp-action="Register" class="tab-link align-content-center">Đăng ký</a>
                         </div>
                     </div>
+                </div>
             </div>
         </header>
     </div>

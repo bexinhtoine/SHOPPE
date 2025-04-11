@@ -1,6 +1,6 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using ShoppeWebApp.Models;
+using ShoppeWebApp.ViewModels;
 
 namespace ShoppeWebApp.Controllers
 {
@@ -19,6 +19,11 @@ namespace ShoppeWebApp.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
         {
             return View();
         }
