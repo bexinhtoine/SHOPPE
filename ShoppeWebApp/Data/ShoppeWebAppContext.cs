@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
-using ShoppeWebApp.Models.Database;
+using ShoppeWebApp.Models;
 
 namespace ShoppeWebApp.Data;
 
@@ -16,7 +16,7 @@ public partial class ShoppeWebAppContext : DbContext
 
     public virtual DbSet<CuaHang> CuaHangs { get; set; }
 
-    public virtual DbSet<DanhGium> DanhGia { get; set; }
+    public virtual DbSet<DanhGia> DanhGia { get; set; }
 
     public virtual DbSet<DanhMuc> DanhMucs { get; set; }
 
@@ -54,7 +54,7 @@ public partial class ShoppeWebAppContext : DbContext
                 .HasConstraintName("FK_CuaHang_NguoiDung");
         });
 
-        modelBuilder.Entity<DanhGium>(entity =>
+        modelBuilder.Entity<DanhGia>(entity =>
         {
             entity.HasOne(d => d.IdNguoiDungNavigation).WithMany(p => p.DanhGia)
                 .OnDelete(DeleteBehavior.ClientSetNull)
