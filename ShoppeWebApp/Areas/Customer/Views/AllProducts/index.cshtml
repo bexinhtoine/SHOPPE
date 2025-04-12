@@ -1,32 +1,54 @@
 ﻿@{
     ViewData["Title"] = "Tất cả sản phẩm";
 }
-<div class="container">
-    <div class="gh-grid">
-        <div class="sidebar">
-
-        </div>
-        <div class="products-container">
-            <div>
-                <ul class="products-list">
-                    <li>
-                        <div class="d-flex">
-                            <a>
-
-                            </a>
-                            <a>
-                                <div>
-                                    Ten San Pham
+<div class="template-2">
+    <div class="container-2">
+        <div class="gh-grid">
+            <div class="sidebar">
+                <div class="bg-white d-flex flex-column">
+                    <div class="bg-white flex-column">
+                        <div>Tất cả danh mục</div>
+                        @for (int i = 0; i < 10; ++i)
+                        {
+                            <div>Tên danh mục</div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="products-container">
+                <div>
+                    <ul class="products-list nostyle-ul">
+                        @for(int i = 0; i < 48; ++i)
+                        {
+                            <li>
+                                <div class="d-flex flex-column border-rounded overflow-hidden bg-white my-card">
+                                    <a>
+                                        <div class="graphic-cover">
+                                            <img src="~/Images/Products/san-pham-001.webp" />
+                                        </div>
+                                    </a>
+                                    <a>
+                                        <div class="d-flex flex-column box-padding-10 row-gap-1">
+                                            <div class="break-word line-clamp-2">
+                                                Ten San Pham rat la dai dai dai dai dai dai dai dai dai dai rat la dai dai dai dai dai dai dai dai dai dai
+                                            </div>
+                                            <div class="d-flex">
+                                                <div class="truncate min-width-1 text-style-2">
+                                                    18.000đ
+                                                </div>
+                                                <div class="ms-auto d-flex flex-column justify-content-center">
+                                                    <div class="truncate min-width-1 text-style-3 text-end">
+                                                        Đã bán 18k
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </a>
-                        </div>
-                    </li>
-                    <li>Test SP 2</li>
-                    <li>Test SP 3</li>
-                    <li>Test SP 4</li>
-                    <li>Test SP 5</li>
-                    <li>Test SP 6</li>
-                </ul>
+                            </li>
+                        }
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
