@@ -36,6 +36,20 @@ ul {
     color: var(--color-fground-primary)
 }
 
+.tab-link-2 {
+    text-decoration: none;
+    align-items: center;
+    color: var(--color-fground-primary);
+}
+
+.tab-link-2:hover {
+    color: var(--color-fground-primary);
+}
+
+.tab-link-2.active {
+    color: var(--color-fground-primary);
+}
+
 .text-micro {
     font-weight: 400;
 }
@@ -130,12 +144,12 @@ ul {
 /* Trang chu */
 .template {
     padding-top: 10rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
 }
 
 .template-2 {
     padding-top: 4rem;
-    padding-bottom: 6rem;
+    padding-bottom: 4rem;
     background-color: #F6F5F2;
 }
 
@@ -317,4 +331,34 @@ ul {
 
 .my-card {
     padding-bottom: 0.35rem;
+}
+
+.tab-header {
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .05);
+    color: rgba(0, 0, 0, .8);
+    font-size: 1rem;
+    font-weight: 700;
+    height: 3.125rem;
+    line-height: 3.125rem;
+    margin-bottom: .625rem;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.zoom-wrapper {
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+
+.zoom-wrapper:hover {
+    transform: scale(1.025); 
+}
+
+.page-controller-btn {
+    --btn-width: 1rem;
+    margin-left: var(--btn-width);
+    margin-right: var(--btn-width);
+    padding-left: var(--btn-width);
+    padding-right: var(--btn-width);
 }

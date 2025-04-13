@@ -1,4 +1,5 @@
-﻿@{
+﻿@model AllProductInfo;
+@{
     ViewData["Title"] = "Tất cả sản phẩm";
 }
 <div class="template-2">
@@ -6,39 +7,57 @@
         <div class="gh-grid">
             <div class="sidebar">
                 <div class="bg-white d-flex flex-column">
-                    <div class="bg-white flex-column">
-                        <div>Tất cả danh mục</div>
-                        @for (int i = 0; i < 10; ++i)
-                        {
-                            <div>Tên danh mục</div>
-                        }
+                    <div class="bg-white flex-column" style="padding-left: 1rem; padding-right: 1rem;">
+                        <div class="tab-header">Tất cả danh mục</div>
+                        <ul class="nostyle-ul">
+                            @foreach(var i in Model.categories)
+                            {
+                                <li>
+                                    <a href="#" class="tab-link">
+                                        <div>@i.TenDanhMuc</div>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                    <div class="bg-white flex-column" style="padding-left: 1rem; padding-right: 1rem;">
+                        <div class="tab-header">Nơi bán</div>
+                        <ul class="nostyle-ul">
+                            @for (int i = 0; i < 5; ++i)
+                            {
+                                <li>
+                                    <a href="#" class="tab-link">
+                                        <div>Nơi bán</div>
+                                    </a>
+                                </li>
+                            }
+                        </ul>
                     </div>
                 </div>
             </div>
             <div class="products-container">
                 <div>
                     <ul class="products-list nostyle-ul">
-                        @for(int i = 0; i < 48; ++i)
+                        @for(int i = 0; i < 6; ++i)
+                        @foreach(var item in Model.productInfos)
                         {
                             <li>
-                                <div class="d-flex flex-column border-rounded overflow-hidden bg-white my-card">
-                                    <a>
+                                <div class="zoom-wrapper d-flex flex-column border-rounded overflow-hidden bg-white my-card">
+                                    <a href="#" class="tab-link-2">
                                         <div class="graphic-cover">
-                                            <img src="~/Images/Products/san-pham-001.webp" />
+                                            <img src="~/@item.UrlAnh" />
                                         </div>
-                                    </a>
-                                    <a>
                                         <div class="d-flex flex-column box-padding-10 row-gap-1">
                                             <div class="break-word line-clamp-2">
-                                                Ten San Pham rat la dai dai dai dai dai dai dai dai dai dai rat la dai dai dai dai dai dai dai dai dai dai
+                                                @item.TenSanPham
                                             </div>
                                             <div class="d-flex">
                                                 <div class="truncate min-width-1 text-style-2">
-                                                    18.000đ
+                                                    @string.Format("{0:#,##0} ₫", item.GiaBan)
                                                 </div>
                                                 <div class="ms-auto d-flex flex-column justify-content-center">
                                                     <div class="truncate min-width-1 text-style-3 text-end">
-                                                        Đã bán 18k
+                                                        @string.Format("Đã bán {0}", item.SoLuongBan)
                                                     </div>
                                                 </div>
                                             </div>
@@ -47,7 +66,42 @@
                                 </div>
                             </li>
                         }
+                        @for(int i = 0; i < 40; ++i)
+                        {
+                            @* <li> *@
+                            @*     <div class="zoom-wrapper d-flex flex-column border-rounded overflow-hidden bg-white my-card"> *@
+                            @*         <a href="#" class="tab-link-2"> *@
+                            @*             <div class="graphic-cover"> *@
+                            @*                 <img src="~/Images/Products/san-pham-001.webp" /> *@
+                            @*             </div> *@
+                            @*             <div class="d-flex flex-column box-padding-10 row-gap-1"> *@
+                            @*                 <div class="break-word line-clamp-2"> *@
+                            @*                     Ten San Pham rat la dai dai dai dai dai dai dai dai dai dai rat la dai dai dai dai dai dai dai dai dai dai *@
+                            @*                 </div> *@
+                            @*                 <div class="d-flex"> *@
+                            @*                     <div class="truncate min-width-1 text-style-2"> *@
+                            @*                         18.000đ *@
+                            @*                     </div> *@
+                            @*                     <div class="ms-auto d-flex flex-column justify-content-center"> *@
+                            @*                         <div class="truncate min-width-1 text-style-3 text-end"> *@
+                            @*                             Đã bán 18k *@
+                            @*                         </div> *@
+                            @*                     </div> *@
+                            @*                 </div> *@
+                            @*             </div> *@
+                            @*         </a> *@
+                            @*     </div> *@
+                            @* </li> *@
+                        }
                     </ul>
+                </div>
+                <div class="d-flex center-content justify-content-center">
+                    <a href="#" class="page-controller-btn"> < </a>
+                    @for(int i = 1; i <= 5; ++i)
+                    {
+                        <a href="#" class="page-controller-btn">@i</a>
+                    }
+                    <a href="#" class="page-controller-btn"> > </a>
                 </div>
             </div>
         </div>

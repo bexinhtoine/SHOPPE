@@ -32,7 +32,6 @@ public partial class NguoiDung
     public string Email { get; set; } = null!;
 
     [StringLength(1000)]
-    [Unicode(false)]
     public string DiaChi { get; set; } = null!;
 
     public int VaiTro { get; set; }
