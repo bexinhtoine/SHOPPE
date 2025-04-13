@@ -22,10 +22,24 @@ namespace ShoppeWebApp.ViewModels.Customer
                     UrlAnh = i.UrlAnh,
                     GiaBan = i.GiaBan,
                     DiemDanhGia = i.TongDiemDg / i.SoLuotDg,
-                    SoLuongBan = i.SoLuongBan,
+                    SoLuongBan = ProcessQuantity(i.SoLuongBan),
                 });
             }
 
+        }
+        public static string ProcessQuantity(int quantity)
+        {
+            double curr = quantity;
+            int expo = 0;
+            string[] symbol = {"", "K", "M", "B", "T", "Q", "Qi"};
+            while(curr >= 1000)
+            {
+                curr /= 1000;
+                ++expo;
+                if (expo >= symbol.Length) break;
+            }
+            string res = string.Format("{0:0.#}{1}", curr, symbol[expo]);
+            return res;
         }
     }
     public class ProductInfo
@@ -35,6 +49,6 @@ namespace ShoppeWebApp.ViewModels.Customer
         public string UrlAnh { get; set; } = null!;
         public decimal GiaBan { get; set; }
         public decimal DiemDanhGia { get; set; }
-        public int SoLuongBan { get; set; }
+        public string SoLuongBan { get; set; } = null!;
     }
 }
