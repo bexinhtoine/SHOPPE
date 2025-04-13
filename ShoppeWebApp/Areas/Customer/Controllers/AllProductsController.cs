@@ -13,9 +13,9 @@ namespace ShoppeWebApp.Areas.Customer.Controllers
         {
             _context = context;
         }
-        public IActionResult Index()
+        public IActionResult Index(string IdDanhMuc)
         {
-            AllProductInfo productInfos = new AllProductInfo(_context);
+            AllProductInfo productInfos = new AllProductInfo(_context, IdDanhMuc);
             return View(productInfos);
         }
     }

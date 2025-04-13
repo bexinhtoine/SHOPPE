@@ -123,6 +123,11 @@ ul {
     width: 100%;
 }
 
+.container-3 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 .column-container {
     column-gap: 4rem;
 }
@@ -148,7 +153,7 @@ ul {
 }
 
 .template-2 {
-    padding-top: 4rem;
+    padding-top: 2rem;
     padding-bottom: 4rem;
     background-color: #F6F5F2;
 }

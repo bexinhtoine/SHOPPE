@@ -6,21 +6,21 @@
     <div class="container-2">
         <div class="gh-grid">
             <div class="sidebar">
-                <div class="bg-white d-flex flex-column">
-                    <div class="bg-white flex-column" style="padding-left: 1rem; padding-right: 1rem;">
+                <div class="bg-white d-flex flex-column overflow-hidden border-rounded">
+                    <div class="bg-white flex-column container-3">
                         <div class="tab-header">Tất cả danh mục</div>
                         <ul class="nostyle-ul">
                             @foreach(var i in Model.categories)
                             {
                                 <li>
-                                    <a href="#" class="tab-link">
-                                        <div>@i.TenDanhMuc</div>
+                                    <a asp-area="Customer" asp-controller="AllProducts" asp-action="Index" asp-route-IdDanhMuc="@i.IdDanhMuc" class="tab-link">
+                                        <div class="truncate">@i.TenDanhMuc</div>
                                     </a>
                                 </li>
                             }
                         </ul>
                     </div>
-                    <div class="bg-white flex-column" style="padding-left: 1rem; padding-right: 1rem;">
+                    <div class="bg-white flex-column container-3">
                         <div class="tab-header">Nơi bán</div>
                         <ul class="nostyle-ul">
                             @for (int i = 0; i < 5; ++i)

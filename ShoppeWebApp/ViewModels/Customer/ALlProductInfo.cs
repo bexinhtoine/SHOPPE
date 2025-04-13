@@ -8,12 +8,19 @@ namespace ShoppeWebApp.ViewModels.Customer
     {
         public List<ProductInfo> productInfos;
         public List<DanhMuc> categories;
+        public string danhMuc;
         public AllProductInfo(ShoppeWebAppContext context)
+            :this(context, null!)
         {
+            
+        }
+        public AllProductInfo(ShoppeWebAppContext context, string IdDanhMuc)
+        {
+            this.danhMuc = IdDanhMuc;
             productInfos = new List<ProductInfo>();
             categories = context.DanhMucs.ToList();
-            var products = context.SanPhams.ToList();
-            foreach(var i in products)
+            var products = danhMuc == null ? context.SanPhams.ToList() : context.SanPhams.Where(i => i.IdDanhMuc == IdDanhMuc).ToList();
+            foreach (var i in products)
             {
                 productInfos.Add(new ProductInfo
                 {
@@ -25,7 +32,6 @@ namespace ShoppeWebApp.ViewModels.Customer
                     SoLuongBan = ProcessQuantity(i.SoLuongBan),
                 });
             }
-
         }
         public static string ProcessQuantity(int quantity)
         {
