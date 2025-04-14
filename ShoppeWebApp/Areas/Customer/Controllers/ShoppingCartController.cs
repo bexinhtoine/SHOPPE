@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace ShoppeWebApp.Area.Customer.Controllers
+namespace ShoppeWebApp.Areas.Customer.Controllers
 {
+    [Authorize("Customer")]
+    [Area("Customer")]
     public class ShoppingCartController : Controller
     {
-        [Area("Customer")]
         public IActionResult Index()
         {
             return View();

@@ -1,4 +1,6 @@
 ﻿using System.Collections.Specialized;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using ShoppeWebApp.Data;
@@ -25,7 +27,7 @@ namespace ShoppeWebApp.Areas.Customer.Controllers
         }
 
         [HttpPost]
-        public IActionResult Login(ViewModels.Customer.LoginViewModel model)
+        public async Task<IActionResult> Login(ViewModels.Customer.LoginViewModel model)
         {
             if (ModelState.IsValid)
             {
@@ -34,7 +36,33 @@ namespace ShoppeWebApp.Areas.Customer.Controllers
 
                 if (taiKhoan != null)
                 {
-                    return RedirectToAction("Index", "Home", new {area=""});
+                    _context.Entry(taiKhoan).Reference(i => i.IdNguoiDungNavigation).Load();
+                    if (taiKhoan.IdNguoiDungNavigation.VaiTro == Constants.ADMIN_ROLE)
+                    {
+                        Console.WriteLine($"Dang nhap cho admin, id={taiKhoan.IdNguoiDung}");
+                        var identity = ViewModels.Authentication.AuthenticationInfo.CreateAdminIdentity(taiKhoan.IdNguoiDung, taiKhoan.Username);
+                        var principal = new ClaimsPrincipal(identity);
+                        var properties = new AuthenticationProperties
+                        {
+                            IsPersistent = true,
+                            ExpiresUtc = DateTimeOffset.UtcNow.AddDays(Constants.COOKIE_EXPIRY_DAYS), // 3 days
+                        };
+                        await HttpContext.SignInAsync("CustomerSchema", principal, properties);
+                        return RedirectToAction("Index", "Dashboard", new { area = "Admin" });
+                    }
+                    if (taiKhoan.IdNguoiDungNavigation.VaiTro == Constants.CUSTOMER_ROLE)
+                    {
+                        Console.WriteLine($"Dang nhap cho customer, id={taiKhoan.IdNguoiDung}");
+                        var identity = ViewModels.Authentication.AuthenticationInfo.CreateCustomerIdentity(taiKhoan.IdNguoiDung, taiKhoan.Username);
+                        var principal = new ClaimsPrincipal(identity);
+                        var properties = new AuthenticationProperties
+                        {
+                            IsPersistent = true,
+                            ExpiresUtc = DateTimeOffset.UtcNow.AddDays(Constants.COOKIE_EXPIRY_DAYS), // 3 days
+                        };
+                        await HttpContext.SignInAsync("CustomerSchema", principal, properties);
+                        return RedirectToAction("Index", "Home", new { area = "" });
+                    }
                 }
                 else
                 {
@@ -107,7 +135,7 @@ namespace ShoppeWebApp.Areas.Customer.Controllers
                 Sdt = model.Sdt,
                 Cccd = "000000000000",
                 DiaChi = "Chưa cập nhật",
-                VaiTro = 0,
+                VaiTro = Constants.CUSTOMER_ROLE,
                 TrangThai = 1,
                 ThoiGianTao = DateTime.Now
             };
@@ -216,6 +244,12 @@ namespace ShoppeWebApp.Areas.Customer.Controllers
             }
 
             return View(model);
+        }
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync("CustomerSchema");
+            return RedirectToAction("Index", "Home", new { area = "" });
         }
     }
 }

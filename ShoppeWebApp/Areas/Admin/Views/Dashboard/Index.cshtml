@@ -8,33 +8,38 @@
         <li><a href="/Admin/Orders">Quản lý đơn hàng</a></li>
         <li><a href="/Admin/Products">Quản lý sản phẩm</a></li>
         <li><a href="/Admin/Reports">Báo cáo</a></li>
-        <li><a href="/Home/Index">Đăng xuất</a></li>
+        <li>
+            <form asp-area="Customer" asp-controller="Account" asp-action="Logout" method="post">
+                <button type="submit" class="invisible-button align-content-center tab-link">Đăng xuất</button>
+            </form>
+        </li>
     </ul>
+
 </nav>
 
-<div class="admin-dashboard">
-    <h1 class="dashboard-title">Chào mừng đến với Trang quản trị</h1>
-    <p class="dashboard-subtitle">Quản lý toàn bộ hệ thống Shoppe Web App</p>
+@* <div class="admin-dashboard"> *@
+@*     <h1 class="dashboard-title">Chào mừng đến với Trang quản trị</h1> *@
+@*     <p class="dashboard-subtitle">Quản lý toàn bộ hệ thống Shoppe Web App</p> *@
 
-    <div class="dashboard-overview">
-        <div class="overview-card">
-            <h3>Tổng số người dùng</h3>
-            <p class="overview-number">@Model.TotalUsers</p>
-        </div>
-        <div class="overview-card">
-            <h3>Tổng số người bán</h3>
-            <p class="overview-number">@Model.TotalSellers</p>
-        </div>
-        <div class="overview-card">
-            <h3>Tổng số đơn hàng</h3>
-            <p class="overview-number">@Model.TotalOrders</p>
-        </div>
-        <div class="overview-card">
-            <h3>Tổng số sản phẩm</h3>
-            <p class="overview-number">@Model.TotalProducts</p>
-        </div>
-    </div>
-</div>
+@*     <div class="dashboard-overview"> *@
+@*         <div class="overview-card"> *@
+@*             <h3>Tổng số người dùng</h3> *@
+@*             <p class="overview-number">@Model.TotalUsers</p> *@
+@*         </div> *@
+@*         <div class="overview-card"> *@
+@*             <h3>Tổng số người bán</h3> *@
+@*             <p class="overview-number">@Model.TotalSellers</p> *@
+@*         </div> *@
+@*         <div class="overview-card"> *@
+@*             <h3>Tổng số đơn hàng</h3> *@
+@*             <p class="overview-number">@Model.TotalOrders</p> *@
+@*         </div> *@
+@*         <div class="overview-card"> *@
+@*             <h3>Tổng số sản phẩm</h3> *@
+@*             <p class="overview-number">@Model.TotalProducts</p> *@
+@*         </div> *@
+@*     </div> *@
+@* </div> *@
 
 <style>
     .header-content {
