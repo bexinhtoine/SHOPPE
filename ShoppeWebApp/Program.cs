@@ -10,7 +10,7 @@ namespace ShoppeWebApp
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
             builder.Services.AddDbContext<ShoppeWebAppContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
             var app = builder.Build();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -29,11 +29,15 @@ namespace ShoppeWebApp
 
             app.MapControllerRoute(
                 name: "areas",
-                pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}");
+                pattern: "{area:Admin}/{controller=Dashboard}/{action=Index}/{id?}");
 
-            app.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+            //app.MapControllerRoute(
+            //     name: "default",
+            //     pattern: "{controller=Dashboard}/{action=Index}/{id?}");
+
+
 
             app.Run();
         }
