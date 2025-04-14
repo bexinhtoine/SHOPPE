@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
 using ShoppeWebApp.Data; 
 
@@ -9,8 +10,9 @@ namespace ShoppeWebApp
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllersWithViews();
+            builder.Services.AddHttpContextAccessor();
             builder.Services.AddDbContext<ShoppeWebAppContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
+            options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppeWebApp")));
             var app = builder.Build();
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -22,9 +24,9 @@ namespace ShoppeWebApp
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.MapControllerRoute(

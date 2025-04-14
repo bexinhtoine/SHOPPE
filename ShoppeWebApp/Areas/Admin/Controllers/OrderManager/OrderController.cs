@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace ShoppeWebApp.Area.Admin.Controllers.OrderManager
+namespace ShoppeWebApp.Areas.Admin.Controllers.OrderManager
 {
+    [Authorize("Admin")]
     [Area("Admin")]
     public class OrderController : Controller
     {

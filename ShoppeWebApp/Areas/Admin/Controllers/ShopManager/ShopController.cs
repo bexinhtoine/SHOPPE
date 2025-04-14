@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace ShoppeWebApp.Area.Admin.Controllers.ShopManager
+namespace ShoppeWebApp.Areas.Admin.Controllers.ShopManager
 {
+    [Authorize("Admin")]
     [Area("Admin")]
     public class ShopController : Controller
     {

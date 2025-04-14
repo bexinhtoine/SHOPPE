@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
-namespace ShoppeWebApp.Area.Admin.Controllers.AccountManager
+namespace ShoppeWebApp.Areas.Admin.Controllers.AccountManager
 {
+    [Authorize("Admin")]
     [Area("Admin")]
     public class RoleController : Controller
     {
