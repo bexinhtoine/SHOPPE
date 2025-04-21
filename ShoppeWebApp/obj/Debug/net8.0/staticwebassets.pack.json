@@ -1,0 +1,329 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/obj/Debug/net8.0/scopedcss/projectbundle/ShoppeWebApp.bundle.scp.css",
+      "PackagePath": "staticwebassets/ShoppeWebApp.m2l6yuerp8.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Icons/shoppe_logo128.png",
+      "PackagePath": "staticwebassets/Images/Icons/shoppe_logo128.png"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Icons/shoppe_logo32.png",
+      "PackagePath": "staticwebassets/Images/Icons/shoppe_logo32.png"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Icons/shoppe_logo512.png",
+      "PackagePath": "staticwebassets/Images/Icons/shoppe_logo512.png"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Icons/shoppe_logo64.png",
+      "PackagePath": "staticwebassets/Images/Icons/shoppe_logo64.png"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/SellerLogin.png",
+      "PackagePath": "staticwebassets/Images/SellerLogin.png"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/home-main-image.webp",
+      "PackagePath": "staticwebassets/Images/home-main-image.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/my-pham.jpg",
+      "PackagePath": "staticwebassets/Images/my-pham.jpg"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/my-pham.webp",
+      "PackagePath": "staticwebassets/Images/my-pham.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/thoi-trang.jpg",
+      "PackagePath": "staticwebassets/Images/thoi-trang.jpg"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/vat-dung.jpg",
+      "PackagePath": "staticwebassets/Images/vat-dung.jpg"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/vat-dung.webp",
+      "PackagePath": "staticwebassets/Images/vat-dung.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/css/styles.css",
+      "PackagePath": "staticwebassets/css/styles.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery/dist/jquery.slim.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery/dist/jquery.slim.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.js"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/lib/jquery/dist/jquery.slim.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/shoppe_logo32.ico",
+      "PackagePath": "staticwebassets/shoppe_logo32.ico"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ShoppeWebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.ShoppeWebApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.ShoppeWebApp.props",
+      "PackagePath": "build\\ShoppeWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.ShoppeWebApp.props",
+      "PackagePath": "buildMultiTargeting\\ShoppeWebApp.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.ShoppeWebApp.props",
+      "PackagePath": "buildTransitive\\ShoppeWebApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
