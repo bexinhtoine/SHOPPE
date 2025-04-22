@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShoppeWebApp.Data;
 
@@ -11,16 +12,18 @@ using ShoppeWebApp.Data;
 namespace ShoppeWebApp.Migrations
 {
     [DbContext(typeof(ShoppeWebAppContext))]
-    partial class ShoppeWebAppContextModelSnapshot : ModelSnapshot
+    [Migration("20250413030455_initialization")]
+    partial class initialization
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.13")
-                .HasAnnotation("Relational:MaxIdentifierLength", 64);
+                .HasAnnotation("ProductVersion", "9.0.3")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
-            MySqlModelBuilderExtensions.AutoIncrementColumns(modelBuilder);
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.Entity("ShoppeWebApp.Models.ChiTietDonHang", b =>
                 {
@@ -57,7 +60,7 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("DiaChi")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("IdNguoiDung")
                         .IsRequired()
@@ -67,7 +70,7 @@ namespace ShoppeWebApp.Migrations
 
                     b.Property<string>("MoTa")
                         .HasMaxLength(1000)
-                        .HasColumnType("varchar(1000)");
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Sdt")
                         .IsRequired()
@@ -79,7 +82,7 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("TenCuaHang")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime>("ThoiGianTao")
                         .HasColumnType("datetime");
@@ -93,7 +96,7 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("UrlAnh")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("IdCuaHang");
 
@@ -126,7 +129,7 @@ namespace ShoppeWebApp.Migrations
 
                     b.Property<string>("NoiDung")
                         .HasMaxLength(1000)
-                        .HasColumnType("varchar(1000)");
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<DateTime>("ThoiGianDg")
                         .HasColumnType("datetime")
@@ -150,12 +153,12 @@ namespace ShoppeWebApp.Migrations
 
                     b.Property<string>("MoTa")
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("TenDanhMuc")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.HasKey("IdDanhMuc");
 
@@ -246,7 +249,7 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("HoVaTen")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("Sdt")
                         .IsRequired()
@@ -299,7 +302,7 @@ namespace ShoppeWebApp.Migrations
 
                     b.Property<string>("MoTa")
                         .HasMaxLength(1000)
-                        .HasColumnType("varchar(1000)");
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<int>("SoLuongBan")
                         .HasColumnType("int");
@@ -314,7 +317,7 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("TenSanPham")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("nvarchar(100)");
 
                     b.Property<DateTime>("ThoiGianTao")
                         .HasColumnType("datetime");
@@ -332,7 +335,7 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("UrlAnh")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("varchar(100)");
+                        .HasColumnType("nvarchar(100)");
 
                     b.HasKey("IdSanPham");
 
@@ -411,12 +414,12 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("DiaChi")
                         .IsRequired()
                         .HasMaxLength(255)
-                        .HasColumnType("varchar(255)");
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("HoVaTen")
                         .IsRequired()
                         .HasMaxLength(50)
-                        .HasColumnType("varchar(50)");
+                        .HasColumnType("nvarchar(50)");
 
                     b.Property<string>("IdNguoiDung")
                         .IsRequired()
