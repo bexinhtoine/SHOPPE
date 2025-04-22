@@ -23,38 +23,28 @@
     <hr class="my-0 border-light">
 
     <div class="row">
-        <!-- Thanh chức năng bên trái -->
+            <!-- Thanh chức năng bên trái -->
         <div class="col-md-2 bg-dark text-white vh-100">
             <h5 class="mt-3 ms-3">Chức năng</h5>
             <div class="d-flex flex-column align-items-start mt-4 px-3">
-                <!-- Home -->
                 <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
                     <i class="fas fa-home"></i> Home
                 </a>
-                
-                <!-- Quản lý người dùng -->
                 <a asp-area="Admin" asp-controller="Account" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
                     <i class="fas fa-users"></i> Quản lý người dùng
                 </a>
-                
-                
-                <!-- Quản lý hóa đơn -->
-                <a asp-area="Admin" asp-controller="Invoice" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
-                    <i class="fas fa-file-invoice"></i> Quản lý hóa đơn
-                </a>
-                
-                
-                <!-- Quản lý cửa hàng -->
                 <a asp-area="Admin" asp-controller="Shop" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
                     <i class="fas fa-store"></i> Quản lý cửa hàng
                 </a>
-                
-                <!-- Thống kê doanh thu -->
+                <a asp-area="Admin" asp-controller="Invoice" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
+                    <i class="fas fa-file-invoice"></i> Quản lý hóa đơn
+                </a>
                 <a asp-area="Admin" asp-controller="Dashboard" asp-action="Statistics" class="btn btn-outline-light w-100 mb-3 text-start">
                     <i class="fas fa-chart-bar"></i> Thống kê doanh thu
                 </a>
             </div>
         </div>
+
 
         <!-- Nội dung chính -->
         <div class="col-md-9">
@@ -112,13 +102,6 @@
 </div>
 
 <style>
-    body {
-        font-family: "Segoe UI", sans-serif;
-        background-color: #f5f6f7;
-        margin: 0;
-        padding: 0;
-    }
-
     .bg-lightblue {
         background-color: #cce5ff; /* Màu xanh nhạt */
     }
@@ -130,22 +113,6 @@
     }
     .bg-lightred {
         background-color: #f8d7da; /* Màu đỏ nhạt */
-    }
-    .card-large {
-        height: 200px; /* Chiều cao cố định */
-    }
-    .card-large .card-body {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    .btn-outline-light {
-        font-size: 16px;
-        font-weight: bold;
-        text-align: left;
-    }
-    .btn-outline-light i {
-        margin-right: 10px;
     }
 </style>
 
