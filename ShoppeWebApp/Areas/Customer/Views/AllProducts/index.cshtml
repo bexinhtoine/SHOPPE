@@ -14,7 +14,15 @@
                             {
                                 <li>
                                     <a asp-area="Customer" asp-controller="AllProducts" asp-action="Index" asp-route-IdDanhMuc="@i.IdDanhMuc" class="tab-link">
-                                        <div class="truncate">@i.TenDanhMuc</div>
+                                        <div class="truncate">
+                                            @if (Model.danhMuc == i.IdDanhMuc)
+                                            {
+                                                <div class="fw-bold"> @i.TenDanhMuc </div>
+                                            }
+                                            else {
+                                                @i.TenDanhMuc
+                                            }
+                                        </div>
                                     </a>
                                 </li>
                             }
