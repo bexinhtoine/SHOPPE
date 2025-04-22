@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using ShoppeWebApp.ViewModels;
+using Microsoft.AspNetCore.Authentication;
 
 namespace ShoppeWebApp.Controllers
 {
@@ -32,6 +33,13 @@ namespace ShoppeWebApp.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        [HttpPost]
+        public IActionResult DangXuat()
+        {
+            // Đăng xuất người dùng
+            HttpContext.SignOutAsync();
+            return RedirectToAction("Index", "Home");
         }
     }
 }
