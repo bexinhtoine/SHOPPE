@@ -235,8 +235,7 @@ namespace ShoppeWebApp.Migrations
                     b.Property<string>("DiaChi")
                         .IsRequired()
                         .HasMaxLength(1000)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(1000)");
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Email")
                         .IsRequired()
