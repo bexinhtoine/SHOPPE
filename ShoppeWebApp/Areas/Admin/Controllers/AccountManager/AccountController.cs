@@ -21,7 +21,7 @@ namespace ShoppeWebApp.Areas.Admin.Controllers.AccountManager
             _context = context;
         }
 
-        public IActionResult Index(string? searchId, string? searchName, string? searchCccd, string? searchEmail, string? searchAddress, string? role, int page = 1, int pageSize = 10)
+        public IActionResult Index(string? searchQuery, string? role, int page = 1, int pageSize = 10)
         {
             // Đảm bảo giá trị hợp lệ cho page và pageSize
             page = page < 1 ? 1 : page;
@@ -30,37 +30,18 @@ namespace ShoppeWebApp.Areas.Admin.Controllers.AccountManager
             // Khởi tạo truy vấn
             var query = _context.NguoiDungs.AsQueryable();
         
-            // Tìm kiếm theo ID
-            if (!string.IsNullOrEmpty(searchId))
+            // Tìm kiếm theo từ khóa (ID, tên người dùng, CCCD, Email, địa chỉ)
+            if (!string.IsNullOrEmpty(searchQuery))
             {
-                query = query.Where(user => user.IdNguoiDung.Contains(searchId));
+                query = query.Where(user =>
+                    user.IdNguoiDung.Contains(searchQuery) ||
+                    user.HoVaTen.Contains(searchQuery) ||
+                    user.Cccd.Contains(searchQuery) ||
+                    user.Email.Contains(searchQuery) ||
+                    user.DiaChi.Contains(searchQuery));
             }
         
-            // Tìm kiếm theo tên người dùng
-            if (!string.IsNullOrEmpty(searchName))
-            {
-                query = query.Where(user => user.HoVaTen.Contains(searchName));
-            }
-        
-            // Tìm kiếm theo CCCD
-            if (!string.IsNullOrEmpty(searchCccd))
-            {
-                query = query.Where(user => user.Cccd.Contains(searchCccd));
-            }
-        
-            // Tìm kiếm theo Email
-            if (!string.IsNullOrEmpty(searchEmail))
-            {
-                query = query.Where(user => user.Email.Contains(searchEmail));
-            }
-        
-            // Tìm kiếm theo địa chỉ
-            if (!string.IsNullOrEmpty(searchAddress))
-            {
-                query = query.Where(user => user.DiaChi.Contains(searchAddress));
-            }
-        
-            // Tìm kiếm theo vai trò
+            // Lọc theo vai trò
             if (!string.IsNullOrEmpty(role))
             {
                 query = query.Where(user =>
@@ -96,11 +77,7 @@ namespace ShoppeWebApp.Areas.Admin.Controllers.AccountManager
             // Truyền dữ liệu phân trang và tham số tìm kiếm vào ViewData
             ViewData["CurrentPage"] = page;
             ViewData["TotalPages"] = totalPages;
-            ViewData["SearchId"] = searchId;
-            ViewData["SearchName"] = searchName;
-            ViewData["SearchCccd"] = searchCccd;
-            ViewData["SearchEmail"] = searchEmail;
-            ViewData["SearchAddress"] = searchAddress;
+            ViewData["SearchQuery"] = searchQuery;
             ViewData["Role"] = role;
         
             // Trả về View với danh sách người dùng
