@@ -36,17 +36,15 @@
                     <a asp-area="Admin" asp-controller="Account" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
                         <i class="fas fa-users"></i> Quản lý người dùng
                     </a>
-                    
+
+                    <!-- Quản lý cửa hàng -->
+                    <a asp-area="Admin" asp-controller="Shop" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
+                        <i class="fas fa-store"></i> Quản lý cửa hàng
+                    </a>
                     
                     <!-- Quản lý hóa đơn -->
                     <a asp-area="Admin" asp-controller="Invoice" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
                         <i class="fas fa-file-invoice"></i> Quản lý hóa đơn
-                    </a>
-                    
-                    
-                    <!-- Quản lý cửa hàng -->
-                    <a asp-area="Admin" asp-controller="Shop" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
-                        <i class="fas fa-store"></i> Quản lý cửa hàng
                     </a>
                     
                     <!-- Thống kê doanh thu -->
@@ -69,39 +67,15 @@
                         </div>
                         <!-- Form tìm kiếm -->
                         <form method="get" asp-area="Admin" asp-controller="Account" asp-action="Index" class="mb-4">
-                            <div class="row">
-                                <!-- Tìm kiếm theo ID -->
-                                <div class="col-md-4">
-                                    <label for="searchId" class="form-label fw-bold text-start d-block">Tìm kiếm theo ID</label>
-                                    <input type="text" id="searchId" name="searchId" class="form-control" placeholder="Nhập ID người dùng..." />
+                            <div class="row g-3 align-items-end">
+                                <!-- Tìm kiếm theo từ khóa -->
+                                <div class="col-md-5">
+                                    <label for="searchQuery" class="form-label fw-bold">Tìm kiếm</label>
+                                    <input type="text" id="searchQuery" name="searchQuery" class="form-control" placeholder="Nhập ID, tên người dùng, CCCD, Email hoặc địa chỉ..." />
                                 </div>
-                                <!-- Tìm kiếm theo tên người dùng -->
-                                <div class="col-md-4">
-                                    <label for="searchName" class="form-label fw-bold text-start d-block">Tìm kiếm theo tên người dùng</label>
-                                    <input type="text" id="searchName" name="searchName" class="form-control" placeholder="Nhập tên người dùng..." />
-                                </div>
-                                <!-- Tìm kiếm theo CCCD -->
-                                <div class="col-md-4">
-                                    <label for="searchCccd" class="form-label fw-bold text-start d-block">Tìm kiếm theo CCCD</label>
-                                    <input type="text" id="searchCccd" name="searchCccd" class="form-control" placeholder="Nhập CCCD..." />
-                                </div>
-                            </div>
-                            <div class="row mt-3">
-                                <!-- Tìm kiếm theo Email -->
-                                <div class="col-md-6">
-                                    <label for="searchEmail" class="form-label fw-bold text-start d-block">Tìm kiếm theo Email</label>
-                                    <input type="text" id="searchEmail" name="searchEmail" class="form-control" placeholder="Nhập Email..." />
-                                </div>
-                                <!-- Tìm kiếm theo địa chỉ -->
-                                <div class="col-md-6">
-                                    <label for="searchAddress" class="form-label fw-bold text-start d-block">Tìm kiếm theo địa chỉ</label>
-                                    <input type="text" id="searchAddress" name="searchAddress" class="form-control" placeholder="Nhập địa chỉ..." />
-                                </div>
-                            </div>
-                            <div class="row mt-3">
                                 <!-- Lọc theo vai trò -->
-                                <div class="col-md-4">
-                                    <label for="role" class="form-label fw-bold text-start d-block">Lọc theo vai trò</label>
+                                <div class="col-md-3">
+                                    <label for="role" class="form-label fw-bold">Lọc theo vai trò</label>
                                     <select id="role" name="role" class="form-select">
                                         <option value="">Tất cả vai trò</option>
                                         <option value="Khách hàng">Khách hàng</option>
@@ -111,13 +85,15 @@
                                 </div>
                                 <!-- Nút tìm kiếm -->
                                 <div class="col-md-2">
-                                    <label class="form-label d-block">&nbsp;</label>
-                                    <button type="submit" class="btn btn-primary w-100">Tìm kiếm</button>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="fas fa-search me-1"></i> Tìm kiếm
+                                    </button>
                                 </div>
                                 <!-- Nút xóa tìm kiếm -->
                                 <div class="col-md-2">
-                                    <label class="form-label d-block">&nbsp;</label>
-                                    <a asp-area="Admin" asp-controller="Account" asp-action="Index" class="btn btn-secondary w-100">Xóa tìm kiếm</a>
+                                    <a asp-area="Admin" asp-controller="Account" asp-action="Index" class="btn btn-secondary w-100">
+                                        <i class="fas fa-undo me-1"></i> Xóa tìm kiếm
+                                    </a>
                                 </div>
                             </div>
                         </form>
