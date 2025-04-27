@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
+  "Hash": "hzRZ4q3TLOKDINNWnAW+4Qv3zgx/nvopaKv5l1QBbgc=",
+=======
   "Hash": "Vt3/p+nrTa2EAxIMTUyOlUJ7g41lih+8O67alMWUISE=",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
   "Source": "ShoppeWebApp",
   "BasePath": "_content/ShoppeWebApp",
   "Mode": "Default",
@@ -94,14 +98,65 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
+      "Fingerprint": "t8dy0r28iz",
+      "Integrity": "jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po=",
+=======
       "Fingerprint": "d4xcmzawps",
       "Integrity": "rRRJLe151kIbTzq+BFo0f4mH1diaHDhli/sPz6fi5kk=",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/avatar-mac-dinh#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z4egk7tzfl",
+      "Integrity": "bbSulL+zwae2CLalPkC/MF5TLiEFFytI+W1ypXdRC/Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/avatar-mac-dinh.jpg"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/home-main-image.webp",
+=======
       "Identity": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\favicon.ico",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "SourceId": "ShoppeWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\",
@@ -290,7 +345,116 @@
       "OriginalItemSpec": "wwwroot\\Images\\my-pham.webp"
     },
     {
+<<<<<<< HEAD
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-01#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jmf86hm8wv",
+      "Integrity": "5fShCZEYZovwVrVBYbRmt97U/bEv5NpgsTaRKk2mDlQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-01.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-02#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zff85s2n4l",
+      "Integrity": "L/XtT1iUZhsElFqYFrkBBhadTnLhHcDjctlFlbo2OiQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-02.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-03#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lkhql51xyz",
+      "Integrity": "dZTlfIRHyc56VTD02YjbIQKCW1BItA5ZBKwGZ0UyypE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-03.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-04#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4nv55cqms2",
+      "Integrity": "cCSpPhOooDMWpnpw098AeTmQaqtIetwmLCik9Y/tCeM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-04.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-05#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vwbjg3iniy",
+      "Integrity": "D5+48w2+bn9Jk0lvIFpwe3pLzuSAju8nv3DvteS2J+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-05.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/SellerLogin.png",
+=======
       "Identity": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-01.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "SourceId": "ShoppeWebApp",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\",
@@ -1912,8 +2076,13 @@
       ]
     },
     {
+<<<<<<< HEAD
+      "Route": "css/styles.css",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/css/styles.css",
+=======
       "Route": "css/site.css",
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\css\\site.css",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1922,7 +2091,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
+          "Value": "6126"
+=======
           "Value": "362"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Content-Type",
@@ -1930,11 +2103,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
+          "Value": "\"jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "\"pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 17 Apr 2025 01:32:00 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -1944,13 +2125,22 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
+          "Value": "sha256-jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po="
+=======
           "Value": "sha256-pAGv4ietcJNk/EwsQZ5BN9+K4MuNYS2a9wl4Jw+q9D0="
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         }
       ]
     },
     {
+<<<<<<< HEAD
+      "Route": "css/styles.t8dy0r28iz.css",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/css/styles.css",
+=======
       "Route": "css/styles.css",
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\css\\styles.css",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1959,7 +2149,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
+          "Value": "6126"
+=======
           "Value": "6494"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Content-Type",
@@ -1967,6 +2161,13 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
+          "Value": "\"jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "\"rRRJLe151kIbTzq+BFo0f4mH1diaHDhli/sPz6fi5kk=\""
         },
         {
@@ -2009,6 +2210,7 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2018,7 +2220,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
+          "Value": "t8dy0r28iz"
+=======
           "Value": "d4xcmzawps"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "label",
@@ -2026,13 +2232,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
+          "Value": "sha256-jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po="
+=======
           "Value": "sha256-rRRJLe151kIbTzq+BFo0f4mH1diaHDhli/sPz6fi5kk="
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         }
       ]
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\favicon.ico",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2053,7 +2267,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+=======
           "Value": "Thu, 17 Apr 2025 01:32:01 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2077,7 +2295,11 @@
     },
     {
       "Route": "favicon.ico",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\favicon.ico",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2098,7 +2320,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+=======
           "Value": "Thu, 17 Apr 2025 01:32:01 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2114,7 +2340,11 @@
     },
     {
       "Route": "Images/avatar-mac-dinh.jpg",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\avatar-mac-dinh.jpg",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2135,7 +2365,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+=======
           "Value": "Mon, 21 Apr 2025 18:34:52 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2151,7 +2385,11 @@
     },
     {
       "Route": "Images/avatar-mac-dinh.z4egk7tzfl.jpg",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\avatar-mac-dinh.jpg",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2172,7 +2410,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+=======
           "Value": "Mon, 21 Apr 2025 18:34:52 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2770,7 +3012,11 @@
     },
     {
       "Route": "Images/Products/san-pham-01.jmf86hm8wv.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-01.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2791,7 +3037,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2815,7 +3065,11 @@
     },
     {
       "Route": "Images/Products/san-pham-01.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-01.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2836,7 +3090,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2852,7 +3110,11 @@
     },
     {
       "Route": "Images/Products/san-pham-02.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-02.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2873,7 +3135,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2889,7 +3155,11 @@
     },
     {
       "Route": "Images/Products/san-pham-02.zff85s2n4l.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-02.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2910,7 +3180,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2934,7 +3208,11 @@
     },
     {
       "Route": "Images/Products/san-pham-03.lkhql51xyz.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-03.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2955,7 +3233,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -2979,7 +3261,11 @@
     },
     {
       "Route": "Images/Products/san-pham-03.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-03.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3000,7 +3286,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -3016,7 +3306,11 @@
     },
     {
       "Route": "Images/Products/san-pham-04.4nv55cqms2.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-04.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3037,7 +3331,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -3061,7 +3359,11 @@
     },
     {
       "Route": "Images/Products/san-pham-04.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-04.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3082,7 +3384,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -3098,7 +3404,11 @@
     },
     {
       "Route": "Images/Products/san-pham-05.vwbjg3iniy.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-05.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3119,7 +3429,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
@@ -3143,7 +3457,11 @@
     },
     {
       "Route": "Images/Products/san-pham-05.webp",
+<<<<<<< HEAD
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
+=======
       "AssetFile": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-05.webp",
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3164,7 +3482,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+=======
           "Value": "Tue, 22 Apr 2025 14:56:30 GMT"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
         },
         {
           "Name": "Cache-Control",
