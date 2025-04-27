@@ -1,191 +1,132 @@
 @model IEnumerable<ShoppeWebApp.ViewModels.Admin.ShopViewModel>
 
 @{
+    Layout = "~/Areas/Admin/Shared/_Layout.cshtml"; 
     ViewData["Title"] = "Quản lý cửa hàng";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Quản lý cửa hàng</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="container-fluid">
-        <!-- Thanh ngang trên cùng -->
-        <div class="row bg-dark text-white py-2 align-items-center">
-            <div class="col-md-10">
-                <h4 class="ms-3">Xin chào Quản trị viên</h4>
-            </div>
-            <div class="col-md-2 text-end">
-                <form asp-area="" asp-controller="Home" asp-action="DangXuat" method="post">
-                    <button type="submit" class="btn btn-danger btn-sm me-3">Đăng xuất</button>
-                </form>
-            </div>
+<div class="container mt-4">
+    <div class="p-5 border border-success rounded" style="background-color: #fdfdfd; min-height: 80vh;">
+        <div class="text-center mb-4">
+            <h2 class="fw-bold text-white p-3" style="background-color: #28a745; border-radius: 10px;">
+                Quản lý cửa hàng
+            </h2>
         </div>
-        <hr class="my-0 border-light">
 
-        <!-- Bố cục chia 2 cột: Sidebar + Nội dung -->
-        <div class="row">
-            <!-- Thanh chức năng bên trái -->
-            <div class="col-md-2 bg-dark text-white vh-100">
-                <h5 class="mt-3 ms-3">Chức năng</h5>
-                <div class="d-flex flex-column align-items-start mt-4 px-3">
-                    <a asp-area="Admin" asp-controller="Dashboard" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
-                        <i class="fas fa-home"></i> Home
-                    </a>
-                    <a asp-area="Admin" asp-controller="Account" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
-                        <i class="fas fa-users"></i> Quản lý người dùng
-                    </a>
-                    <a asp-area="Admin" asp-controller="Shop" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
-                        <i class="fas fa-store"></i> Quản lý cửa hàng
-                    </a>
-                    <a asp-area="Admin" asp-controller="Invoice" asp-action="Index" class="btn btn-outline-light w-100 mb-3 text-start">
-                        <i class="fas fa-file-invoice"></i> Quản lý hóa đơn
-                    </a>
-                    <a asp-area="Admin" asp-controller="Dashboard" asp-action="Statistics" class="btn btn-outline-light w-100 mb-3 text-start">
-                        <i class="fas fa-chart-bar"></i> Thống kê doanh thu
+        <!-- Hiển thị thông báo thành công -->
+        @if (TempData["SuccessMessage"] != null)
+        {
+            <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+                @TempData["SuccessMessage"]
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        }
+
+        <!-- Form tìm kiếm -->
+        <form method="get" asp-area="Admin" asp-controller="Shop" asp-action="Index" class="mb-4">
+            <div class="row g-3 align-items-end">
+                <div class="col-md-8">
+                    <label class="form-label fw-bold">Tìm kiếm</label>
+                    <input type="text" name="searchQuery" class="form-control" placeholder="Nhập ID cửa hàng, ID chủ sở hữu hoặc tên cửa hàng..." />
+                </div>
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-primary w-100">
+                        <i class="fas fa-search me-1"></i> Tìm kiếm
+                    </button>
+                </div>
+                <div class="col-md-2">
+                    <a asp-area="Admin" asp-controller="Shop" asp-action="Index" class="btn btn-secondary w-100">
+                        <i class="fas fa-undo me-1"></i> Xóa tìm kiếm
                     </a>
                 </div>
             </div>
+        </form>
 
-            <!-- Nội dung chính -->
-            <div class="col-md-10">
-                <div class="container mt-4">
-                    <div class="p-5 border border-success rounded" style="background-color: #fdfdfd; min-height: 80vh;">
-                        <div class="text-center mb-4">
-                            <h2 class="fw-bold text-white p-3" style="background-color: #28a745; border-radius: 10px;">
-                                Quản lý cửa hàng
-                            </h2>
+        <!-- Tổng số và Thêm mới -->
+        <div class="mb-3 d-flex justify-content-between align-items-center">
+            <div class="fw-bold" style="font-size: 1.5rem;">
+                Tổng số cửa hàng: @Model?.Count()
+            </div>
+            <a asp-area="Admin" asp-controller="Shop" asp-action="Create" class="btn btn-success">Thêm cửa hàng mới</a>
+        </div>
+
+        @if (Model != null && Model.Any())
+        {
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                @foreach (var shop in Model)
+                {
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            @if (!string.IsNullOrEmpty(shop.UrlAnh))
+                            {
+                                <img src="@Url.Content(shop.UrlAnh)" alt="Ảnh đại diện cửa hàng"
+                                     class="card-img-top mx-auto d-block"
+                                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;" />
+                            }
+
+                            <div class="card-body">
+                                <h5 class="card-title text-center">@shop.TenCuaHang</h5>
+                                <p class="mb-1"><strong>ID Cửa hàng:</strong> @shop.IdCuaHang</p>
+                                <p class="mb-1"><strong>ID chủ sở hữu:</strong> @shop.IdSeller</p>
+                                <p class="mb-1"><strong>Tên chủ sở hữu:</strong> @shop.TenSeller</p>
+                                <p class="mb-1"><strong>Số điện thoại:</strong> @shop.Sdt</p>
+                                <p class="mb-1"><strong>Ngày tạo:</strong> @shop.ThoiGianTao.ToString("dd/MM/yyyy")</p>
+                            </div>
+
+                            <div class="card-footer bg-transparent text-center">
+                                <a asp-area="Admin" asp-controller="Shop" asp-action="DetailsShop" asp-route-id="@shop.IdCuaHang"
+                                   class="btn btn-dark btn-sm me-1">
+                                    <i class="fas fa-info-circle"></i> Chi tiết
+                                </a>
+                                <a asp-area="Admin" asp-controller="Shop" asp-action="Delete" asp-route-id="@shop.IdCuaHang"
+                                   class="btn btn-danger btn-sm">
+                                    <i class="fas fa-trash-alt"></i> Xóa
+                                </a>
+                            </div>
                         </div>
-                        
-                        <!-- Hiển thị thông báo thành công -->
-                        @if (TempData["SuccessMessage"] != null)
-                        {
-                            <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
-                                @TempData["SuccessMessage"]
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-                            </div>
-                        }
-
-                        <form method="get" asp-area="Admin" asp-controller="Shop" asp-action="Index" class="mb-4">
-                            <!-- Hàng 1: 1 ô tìm kiếm -->
-                            <div class="row g-3 align-items-end">
-                                <div class="col-md-8">
-                                    <label class="form-label fw-bold">Tìm kiếm</label>
-                                    <input type="text" name="searchQuery" class="form-control" placeholder="Nhập ID cửa hàng, ID chủ sở hữu hoặc tên cửa hàng..." />
-                                </div>
-                                <div class="col-md-2">
-                                    <button type="submit" class="btn btn-primary w-100">
-                                        <i class="fas fa-search me-1"></i> Tìm kiếm
-                                    </button>
-                                </div>
-                                <div class="col-md-2">
-                                    <a asp-area="Admin" asp-controller="Shop" asp-action="Index" class="btn btn-secondary w-100">
-                                        <i class="fas fa-undo me-1"></i> Xóa tìm kiếm
-                                    </a>
-                                </div>
-                            </div>
-                        </form>
-
-
-                        <!-- Tổng số và Thêm mới -->
-                        <div class="mb-3 d-flex justify-content-between align-items-center">
-                            <div class="fw-bold" style="font-size: 1.5rem;">
-                                Tổng số cửa hàng: @Model?.Count() 
-                            </div>
-                            <a asp-area="Admin" asp-controller="Shop" asp-action="Create" class="btn btn-success">Thêm cửa hàng mới</a>
-                        </div>
-
-                        <!-- Kiểm tra nếu có cửa hàng -->
-                        @if (Model != null && Model.Any())
-                        {
-                            <!-- Danh sách cửa hàng -->
-                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                                @foreach (var shop in Model)
-                                {
-                                    <div class="col">
-                                        <div class="card h-100 shadow-sm">
-                                            @if (!string.IsNullOrEmpty(shop.UrlAnh))
-                                            {
-                                                <img src="@Url.Content(shop.UrlAnh)" alt="Ảnh đại diện cửa hàng" 
-                                                     class="card-img-top mx-auto d-block" 
-                                                     style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;" />
-                                            }
-
-                                            <div class="card-body">
-                                                <h5 class="card-title text-center">@shop.TenCuaHang</h5>
-                                                <p class="mb-1"><strong>ID Cửa hàng:</strong> @shop.IdCuaHang</p>
-                                                <p class="mb-1"><strong>ID chủ sở hữu:</strong> @shop.IdSeller</p>
-                                                <p class="mb-1"><strong>Tên chủ sở hữu:</strong> @shop.TenSeller</p>
-                                                <p class="mb-1"><strong>Số điện thoại:</strong> @shop.Sdt</p>
-                                                <p class="mb-1"><strong>Ngày tạo:</strong> @shop.ThoiGianTao.ToString("dd/MM/yyyy")</p>
-                                            </div>
-
-                                            <div class="card-footer bg-transparent text-center">
-                                                <a asp-area="Admin" asp-controller="Shop" asp-action="DetailsShop" asp-route-id="@shop.IdCuaHang" 
-                                                   class="btn btn-dark btn-sm me-1">
-                                                    <i class="fas fa-info-circle"></i> Chi tiết
-                                                </a>
-                                                <a asp-area="Admin" asp-controller="Shop" asp-action="Delete" asp-route-id="@shop.IdCuaHang" 
-                                                   class="btn btn-danger btn-sm" >
-                                                    <i class="fas fa-trash-alt"></i> Xóa
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                }
-                            </div>
-
-                            <!-- Phân trang -->
-                            <div class="d-flex justify-content-center mt-4">
-                                <nav>
-                                    <ul class="pagination">
-                                        @{
-                                            int currentPage = Convert.ToInt32(ViewData["CurrentPage"]);
-                                            int totalPages = Convert.ToInt32(ViewData["TotalPages"]);
-                                            string searchId = ViewData["SearchId"]?.ToString() ?? string.Empty;
-                                            string searchName = ViewData["SearchName"]?.ToString() ?? string.Empty;
-                                            string status = ViewData["Status"]?.ToString() ?? string.Empty;
-                                        }
-
-                                        <li class="page-item">
-                                            <a class="page-link" href="?page=1&searchId=@searchId&searchName=@searchName&status=@status">Đầu</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="?page=@(currentPage > 1 ? currentPage - 1 : 1)&searchId=@searchId&searchName=@searchName&status=@status">Trước</a>
-                                        </li>
-                                        @for (int i = 1; i <= totalPages; i++)
-                                        {
-                                            <li class="page-item @(currentPage == i ? "active" : "")">
-                                                <a class="page-link" href="?page=@i&searchId=@searchId&searchName=@searchName&status=@status">@i</a>
-                                            </li>
-                                        }
-                                        <li class="page-item">
-                                            <a class="page-link" href="?page=@(currentPage < totalPages ? currentPage + 1 : totalPages)&searchId=@searchId&searchName=@searchName&status=@status">Tiếp</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="?page=@totalPages&searchId=@searchId&searchName=@searchName&status=@status">Cuối</a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        }
-                        else
-                        {
-                            <!-- Thông báo nếu không có cửa hàng -->
-                            <div class="alert alert-info text-center mt-4" role="alert">
-                                <strong class="fs-2">Không có cửa hàng nào</strong>
-                            </div>
-                        }
                     </div>
-                </div>
+                }
             </div>
-        </div>
-    </div>
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-</body>
-</html>
+            <!-- Phân trang -->
+            <div class="d-flex justify-content-center mt-4">
+                <nav>
+                    <ul class="pagination">
+                        @{
+                            int currentPage = Convert.ToInt32(ViewData["CurrentPage"]);
+                            int totalPages = Convert.ToInt32(ViewData["TotalPages"]);
+                            string searchId = ViewData["SearchId"]?.ToString() ?? string.Empty;
+                            string searchName = ViewData["SearchName"]?.ToString() ?? string.Empty;
+                            string status = ViewData["Status"]?.ToString() ?? string.Empty;
+                        }
+
+                        <li class="page-item">
+                            <a class="page-link" href="?page=1&searchId=@searchId&searchName=@searchName&status=@status">Đầu</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="?page=@(currentPage > 1 ? currentPage - 1 : 1)&searchId=@searchId&searchName=@searchName&status=@status">Trước</a>
+                        </li>
+                        @for (int i = 1; i <= totalPages; i++)
+                        {
+                            <li class="page-item @(currentPage == i ? "active" : "")">
+                                <a class="page-link" href="?page=@i&searchId=@searchId&searchName=@searchName&status=@status">@i</a>
+                            </li>
+                        }
+                        <li class="page-item">
+                            <a class="page-link" href="?page=@(currentPage < totalPages ? currentPage + 1 : totalPages)&searchId=@searchId&searchName=@searchName&status=@status">Tiếp</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="?page=@totalPages&searchId=@searchId&searchName=@searchName&status=@status">Cuối</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-info text-center mt-4" role="alert">
+                <strong class="fs-2">Không có cửa hàng nào</strong>
+            </div>
+        }
+    </div>
+</div>
