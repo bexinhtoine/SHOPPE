@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShoppeWebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+06571e9cda97937222e4b432e3bf20e1109014e9")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+765cee1f615cbece43cb112657ac538f36d386fe")]
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
 [assembly: System.Reflection.AssemblyProductAttribute("ShoppeWebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShoppeWebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
