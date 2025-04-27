@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "75l1cl+eJ7QhSZfOTMC+2faOoxWbPtfif8ct/B4AUik=",
+  "Hash": "hzRZ4q3TLOKDINNWnAW+4Qv3zgx/nvopaKv5l1QBbgc=",
   "Source": "ShoppeWebApp",
   "BasePath": "_content/ShoppeWebApp",
   "Mode": "Default",
@@ -94,11 +94,53 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "88dfyey3ru",
-      "Integrity": "uCr1Lj+qpaVi41ikViMOOGmroEm+WXENj403BCjdi2k=",
+      "Fingerprint": "t8dy0r28iz",
+      "Integrity": "jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/avatar-mac-dinh#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "z4egk7tzfl",
+      "Integrity": "bbSulL+zwae2CLalPkC/MF5TLiEFFytI+W1ypXdRC/Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/avatar-mac-dinh.jpg"
     },
     {
       "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/home-main-image.webp",
@@ -246,6 +288,111 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Images/my-pham.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-01#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jmf86hm8wv",
+      "Integrity": "5fShCZEYZovwVrVBYbRmt97U/bEv5NpgsTaRKk2mDlQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-01.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-02#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zff85s2n4l",
+      "Integrity": "L/XtT1iUZhsElFqYFrkBBhadTnLhHcDjctlFlbo2OiQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-02.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-03#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lkhql51xyz",
+      "Integrity": "dZTlfIRHyc56VTD02YjbIQKCW1BItA5ZBKwGZ0UyypE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-03.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-04#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4nv55cqms2",
+      "Integrity": "cCSpPhOooDMWpnpw098AeTmQaqtIetwmLCik9Y/tCeM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-04.webp"
+    },
+    {
+      "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
+      "SourceId": "ShoppeWebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/",
+      "BasePath": "_content/ShoppeWebApp",
+      "RelativePath": "Images/Products/san-pham-05#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vwbjg3iniy",
+      "Integrity": "D5+48w2+bn9Jk0lvIFpwe3pLzuSAju8nv3DvteS2J+c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Images/Products/san-pham-05.webp"
     },
     {
       "Identity": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/SellerLogin.png",
@@ -1718,51 +1865,6 @@
       ]
     },
     {
-      "Route": "css/styles.88dfyey3ru.css",
-      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/css/styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4107"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uCr1Lj+qpaVi41ikViMOOGmroEm+WXENj403BCjdi2k=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:20:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "88dfyey3ru"
-        },
-        {
-          "Name": "label",
-          "Value": "css/styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uCr1Lj+qpaVi41ikViMOOGmroEm+WXENj403BCjdi2k="
-        }
-      ]
-    },
-    {
       "Route": "css/styles.css",
       "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/css/styles.css",
       "Selectors": [],
@@ -1773,7 +1875,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4107"
+          "Value": "6126"
         },
         {
           "Name": "Content-Type",
@@ -1781,11 +1883,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uCr1Lj+qpaVi41ikViMOOGmroEm+WXENj403BCjdi2k=\""
+          "Value": "\"jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 11 Apr 2025 14:20:49 GMT"
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1795,7 +1897,216 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uCr1Lj+qpaVi41ikViMOOGmroEm+WXENj403BCjdi2k="
+          "Value": "sha256-jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.t8dy0r28iz.css",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/css/styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t8dy0r28iz"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jeOVrmBDSk19iC350owrgfwuSVK4ECCbBl9hQzgh7po="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/avatar-mac-dinh.jpg",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bbSulL+zwae2CLalPkC/MF5TLiEFFytI+W1ypXdRC/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bbSulL+zwae2CLalPkC/MF5TLiEFFytI+W1ypXdRC/Y="
+        }
+      ]
+    },
+    {
+      "Route": "Images/avatar-mac-dinh.z4egk7tzfl.jpg",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12923"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bbSulL+zwae2CLalPkC/MF5TLiEFFytI+W1ypXdRC/Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:07:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "z4egk7tzfl"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/avatar-mac-dinh.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bbSulL+zwae2CLalPkC/MF5TLiEFFytI+W1ypXdRC/Y="
         }
       ]
     },
@@ -2370,6 +2681,416 @@
         {
           "Name": "integrity",
           "Value": "sha256-3AlwfbaAoN9CPcrsuNzRLaqOew1O4N+6BEupCixx2Fk="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-01.jmf86hm8wv.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5fShCZEYZovwVrVBYbRmt97U/bEv5NpgsTaRKk2mDlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jmf86hm8wv"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/san-pham-01.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5fShCZEYZovwVrVBYbRmt97U/bEv5NpgsTaRKk2mDlQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-01.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "127646"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5fShCZEYZovwVrVBYbRmt97U/bEv5NpgsTaRKk2mDlQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5fShCZEYZovwVrVBYbRmt97U/bEv5NpgsTaRKk2mDlQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-02.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L/XtT1iUZhsElFqYFrkBBhadTnLhHcDjctlFlbo2OiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-L/XtT1iUZhsElFqYFrkBBhadTnLhHcDjctlFlbo2OiQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-02.zff85s2n4l.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "108428"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"L/XtT1iUZhsElFqYFrkBBhadTnLhHcDjctlFlbo2OiQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zff85s2n4l"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/san-pham-02.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-L/XtT1iUZhsElFqYFrkBBhadTnLhHcDjctlFlbo2OiQ="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-03.lkhql51xyz.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dZTlfIRHyc56VTD02YjbIQKCW1BItA5ZBKwGZ0UyypE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lkhql51xyz"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/san-pham-03.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dZTlfIRHyc56VTD02YjbIQKCW1BItA5ZBKwGZ0UyypE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-03.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "43768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dZTlfIRHyc56VTD02YjbIQKCW1BItA5ZBKwGZ0UyypE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dZTlfIRHyc56VTD02YjbIQKCW1BItA5ZBKwGZ0UyypE="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-04.4nv55cqms2.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCSpPhOooDMWpnpw098AeTmQaqtIetwmLCik9Y/tCeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4nv55cqms2"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/san-pham-04.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCSpPhOooDMWpnpw098AeTmQaqtIetwmLCik9Y/tCeM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-04.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "52494"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cCSpPhOooDMWpnpw098AeTmQaqtIetwmLCik9Y/tCeM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cCSpPhOooDMWpnpw098AeTmQaqtIetwmLCik9Y/tCeM="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-05.vwbjg3iniy.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D5+48w2+bn9Jk0lvIFpwe3pLzuSAju8nv3DvteS2J+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vwbjg3iniy"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Products/san-pham-05.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-D5+48w2+bn9Jk0lvIFpwe3pLzuSAju8nv3DvteS2J+c="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Products/san-pham-05.webp",
+      "AssetFile": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "130118"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"D5+48w2+bn9Jk0lvIFpwe3pLzuSAju8nv3DvteS2J+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 22 Apr 2025 14:18:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-D5+48w2+bn9Jk0lvIFpwe3pLzuSAju8nv3DvteS2J+c="
         }
       ]
     },
