@@ -21,12 +21,45 @@
       "PackagePath": "staticwebassets\\Images\\Icons\\shoppe_logo64.png"
     },
     {
+<<<<<<< HEAD
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
+      "PackagePath": "staticwebassets/Images/Products/san-pham-01.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
+      "PackagePath": "staticwebassets/Images/Products/san-pham-02.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
+      "PackagePath": "staticwebassets/Images/Products/san-pham-03.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
+      "PackagePath": "staticwebassets/Images/Products/san-pham-04.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
+      "PackagePath": "staticwebassets/Images/Products/san-pham-05.webp"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/SellerLogin.png",
+      "PackagePath": "staticwebassets/Images/SellerLogin.png"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
+      "PackagePath": "staticwebassets/Images/avatar-mac-dinh.jpg"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/home-main-image.webp",
+      "PackagePath": "staticwebassets/Images/home-main-image.webp"
+=======
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-01.webp",
       "PackagePath": "staticwebassets\\Images\\Products\\san-pham-01.webp"
     },
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-02.webp",
       "PackagePath": "staticwebassets\\Images\\Products\\san-pham-02.webp"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
     },
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-03.webp",
@@ -57,8 +90,17 @@
       "PackagePath": "staticwebassets\\Images\\my-pham.jpg"
     },
     {
+<<<<<<< HEAD
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+=======
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\my-pham.webp",
       "PackagePath": "staticwebassets\\Images\\my-pham.webp"
+>>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
     },
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\shop-dai-dien.png",
