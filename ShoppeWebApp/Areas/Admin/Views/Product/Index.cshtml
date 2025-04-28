@@ -27,7 +27,7 @@
         
             <!-- Thông tin chi tiết -->
             <div>
-                <h2 class="fw-bold text-danger mb-3" style="font-size: 2rem;">Cửa hàng: @Model.TenCuaHang</h2>
+                <h2 class="fw-bold text-danger mb-3" style="font-size: 2rem;">@Model.TenCuaHang</h2>
                 <p class="mb-2"><strong>Địa chỉ:</strong> <span class="text-dark">@Model.DiaChi</span></p>
                 <p class="mb-0"><strong>Số điện thoại:</strong> <span class="text-dark">@Model.SoDienThoai</span></p>
             </div>
@@ -87,7 +87,7 @@
                 Tổng số sản phẩm: @Model?.productInfos?.Count() 
             </div>
 
-            <a asp-area="Admin" asp-controller="Account" asp-action="Create" class="btn btn-success">Thêm tài khoản</a>
+            <a asp-area="Admin" asp-controller="Product" asp-action="Create" class="btn btn-success">Thêm sản phẩm</a>
         </div>
 
 
@@ -99,35 +99,47 @@
                     @foreach (var product in Model.productInfos)
                     {
                         <div class="col">
-                            <div class="card h-100 shadow-sm">
-                                @if (!string.IsNullOrEmpty(product.UrlAnh))
-                                {
-                                    <img src="@Url.Content($"~/{product.UrlAnh}")" alt="Ảnh sản phẩm"
-                                         class="card-img-top mx-auto d-block"
-                                         style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;" />
-                                }
-                                
-                                <div class="card-body">
-                                    <div class="d-flex flex-column box-padding-10 row-gap-1">
-                                        <h6 class="break-word text-center fw-bold line-clamp-2">
-                                            @product.TenSanPham
-                                        </h6>
-                                        <p class="mb-1 text-muted">
-                                            <strong>Giá gốc:</strong> 
-                                            <span style="text-decoration: line-through;">@string.Format("{0:#,##0} ₫", product.GiaGoc)</span>
-                                        </p>
-                                        <p class="mb-1 text-danger">
-                                            <strong>Giá bán:</strong> @string.Format("{0:#,##0} ₫", product.GiaBan)
-                                        </p>
-                                        <p class="mb-1 text-success">
-                                            <strong>Giảm giá:</strong> @string.Format("{0:0}%", product.TyLeGiamGia)
-                                        </p>
-                                        <p class="mb-1 text-muted">
-                                            <strong>Đã bán:</strong> @product.SoLuongBan
-                                        </p>
+                            <div class="card h-100 shadow-sm position-relative">
+                                <!-- Hiển thị ID sản phẩm căn giữa -->
+                                <div class="text-center fw-bold text-muted mt-2">
+                                    ID: @product.IdSanPham
+                                </div>
+
+                                <!-- Ảnh sản phẩm và giảm giá -->
+                                <div class="position-relative" style="width: 100%; height: 200px;">
+                                    @if (!string.IsNullOrEmpty(product.UrlAnh))
+                                    {
+                                        <img src="@Url.Content($"~/{product.UrlAnh}")" alt="Ảnh sản phẩm"
+                                            class="card-img-top"
+                                            style="width: 100%; height: 100%; object-fit: cover; border-radius: 10px;" />
+                                    }
+                                    <!-- Hiển thị giảm giá ở góc trên bên phải của ảnh -->
+                                    <div class="position-absolute top-0 end-0 bg-danger text-white px-2 py-1 rounded-start">
+                                        @string.Format("{0:0}%", product.TyLeGiamGia)
                                     </div>
                                 </div>
-                                
+                        
+                                <!-- Nội dung sản phẩm -->
+                                <div class="card-body">
+                                    <h6 class="break-word text-center fw-bold line-clamp-2">
+                                        @product.TenSanPham
+                                    </h6>
+                                    <div class="d-flex justify-content-between align-items-center mb-2">
+                                        <!-- Giá gốc và giá bán trên cùng một hàng -->
+                                        <span class="text-muted" style="text-decoration: line-through;">
+                                            @string.Format("{0:#,##0} ₫", product.GiaGoc)
+                                        </span>
+                                        <span class="text-danger fw-bold">
+                                            @string.Format("{0:#,##0} ₫", product.GiaBan)
+                                        </span>
+                                    </div>
+                                    <!-- Đã bán căn trái -->
+                                    <p class="mb-1 text-muted text-start">
+                                        <strong>Đã bán:</strong> @product.SoLuongDaBan
+                                    </p>
+                                </div>
+                        
+                                <!-- Footer với các nút -->
                                 <div class="card-footer bg-transparent text-center">
                                     <a asp-area="Admin" asp-controller="Product" asp-action="Details" asp-route-id="@product.IdSanPham"
                                        class="btn btn-dark btn-sm me-1">

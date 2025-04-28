@@ -20,7 +20,7 @@ namespace ShoppeWebApp.Areas.Admin.Controllers.ProductManager
         [HttpGet]
         public IActionResult Index(string IdDanhMuc, string searchQuery, int page = 1, int pageSize = 12)
         {
-            // Lấy thông tin cửa hàng (giả sử bạn có bảng CuaHangs)
+            // Lấy thông tin cửa hàng 
             var cuaHang = _context.CuaHangs.FirstOrDefault(); // Lấy thông tin cửa hàng đầu tiên
             if (cuaHang == null)
             {
@@ -47,7 +47,8 @@ namespace ShoppeWebApp.Areas.Admin.Controllers.ProductManager
             }
             if (!string.IsNullOrEmpty(searchQuery))
             {
-                query = query.Where(p => p.TenSanPham.Contains(searchQuery) || p.IdSanPham.Contains(searchQuery));
+                query = query.Where(p => p.IdSanPham.Contains(searchQuery) || 
+                                         p.TenSanPham.Contains(searchQuery));
             }
         
             // Phân trang
