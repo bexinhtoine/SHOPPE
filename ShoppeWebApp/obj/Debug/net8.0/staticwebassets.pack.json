@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ShoppeWebApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\ShoppeWebApp.wwhg2pcpqs.bundle.scp.css"
+      "PackagePath": "staticwebassets\\ShoppeWebApp.nx4vofzr46.bundle.scp.css"
     },
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Icons\\shoppe_logo128.png",
@@ -21,45 +21,60 @@
       "PackagePath": "staticwebassets\\Images\\Icons\\shoppe_logo64.png"
     },
     {
-<<<<<<< HEAD
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-01.webp",
-      "PackagePath": "staticwebassets/Images/Products/san-pham-01.webp"
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp"
     },
     {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-02.webp",
-      "PackagePath": "staticwebassets/Images/Products/san-pham-02.webp"
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\118d1339-a3aa-4d04-acb8-bf98b630c46c_Set mô hình Doraemon.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\118d1339-a3aa-4d04-acb8-bf98b630c46c_Set mô hình Doraemon.webp"
     },
     {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-03.webp",
-      "PackagePath": "staticwebassets/Images/Products/san-pham-03.webp"
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp"
     },
     {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-04.webp",
-      "PackagePath": "staticwebassets/Images/Products/san-pham-04.webp"
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp"
     },
     {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/Products/san-pham-05.webp",
-      "PackagePath": "staticwebassets/Images/Products/san-pham-05.webp"
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp"
     },
     {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/SellerLogin.png",
-      "PackagePath": "staticwebassets/Images/SellerLogin.png"
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp"
     },
     {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/avatar-mac-dinh.jpg",
-      "PackagePath": "staticwebassets/Images/avatar-mac-dinh.jpg"
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp"
     },
     {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/Images/home-main-image.webp",
-      "PackagePath": "staticwebassets/Images/home-main-image.webp"
-=======
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp"
+    },
+    {
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp"
+    },
+    {
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\b4b69924-7160-4a6d-a15a-bfe8b6c7fcea_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\b4b69924-7160-4a6d-a15a-bfe8b6c7fcea_Doraemon nhồi bông.webp"
+    },
+    {
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp"
+    },
+    {
+      "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp",
+      "PackagePath": "staticwebassets\\Images\\Products\\f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp"
+    },
+    {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-01.webp",
       "PackagePath": "staticwebassets\\Images\\Products\\san-pham-01.webp"
     },
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-02.webp",
       "PackagePath": "staticwebassets\\Images\\Products\\san-pham-02.webp"
->>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
     },
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\Products\\san-pham-03.webp",
@@ -90,17 +105,8 @@
       "PackagePath": "staticwebassets\\Images\\my-pham.jpg"
     },
     {
-<<<<<<< HEAD
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/favicon.ico",
-      "PackagePath": "staticwebassets/favicon.ico"
-    },
-    {
-      "Id": "/Users/Nguyen Huu Hoang Luan/Git Code/SHOPPE/ShoppeWebApp/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
-=======
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\my-pham.webp",
       "PackagePath": "staticwebassets\\Images\\my-pham.webp"
->>>>>>> 7b1b73f0bc93cc995f294ead20f8b6d3f1da34c6
     },
     {
       "Id": "D:\\DO_AN\\PBL3\\SHOPPE\\ShoppeWebApp\\wwwroot\\Images\\shop-dai-dien.png",

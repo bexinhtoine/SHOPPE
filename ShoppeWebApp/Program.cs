@@ -69,7 +69,7 @@ namespace ShoppeWebApp
             // Route cho tất cả các areas
             app.MapControllerRoute(
                 name: "areas",
-                pattern: "{area:exists}/{controller=Account}/{action=Login}/{id?}");
+                pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
 
             // Route mặc định
             app.MapControllerRoute(
