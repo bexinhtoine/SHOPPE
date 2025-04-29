@@ -164,11 +164,13 @@
                         
                                 <!-- Footer với các nút -->
                                 <div class="card-footer bg-transparent text-center">
-                                    <a asp-area="Admin" asp-controller="Product" asp-action="Details" asp-route-id="@product.IdSanPham"
+                                    <a asp-area="Admin" asp-controller="Product" asp-action="DetailsProduct" 
+                                       asp-route-IdSanPham="@product.IdSanPham" asp-route-IdCuaHang="@Model.IdCuaHang"
                                        class="btn btn-dark btn-sm me-1">
                                         <i class="fas fa-info-circle"></i> Chi tiết
                                     </a>
-                                    <a asp-area="Admin" asp-controller="Product" asp-action="Delete" asp-route-id="@product.IdSanPham"
+                                    <a asp-area="Admin" asp-controller="Product" asp-action="Delete" 
+                                       asp-route-IdSanPham="@product.IdSanPham" asp-route-IdCuaHang="@Model.IdCuaHang"
                                        class="btn btn-danger btn-sm">
                                         <i class="fas fa-trash-alt"></i> Xóa
                                     </a>

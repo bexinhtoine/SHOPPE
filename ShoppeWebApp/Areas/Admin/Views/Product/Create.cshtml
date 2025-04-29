@@ -61,7 +61,7 @@
 
                 <div class="mb-3">
                     <label asp-for="MoTa" class="form-label fw-bold">Mô tả</label>
-                    <textarea asp-for="MoTa" class="form-control" placeholder="Nhập mô tả sản phẩm"></textarea>
+                    <textarea asp-for="MoTa" class="form-control" placeholder="Nhập mô tả sản phẩm" style="white-space: pre-line;"></textarea>
                     <span asp-validation-for="MoTa" class="text-danger"></span>
                 </div>
                 
@@ -73,7 +73,7 @@
 
                 <div class="text-end">
                     <button type="submit" class="btn btn-success">Thêm sản phẩm</button>
-                    <a asp-area="Admin" asp-controller="Product" asp-action="Index" class="btn btn-secondary">Hủy</a>
+                    <a asp-area="Admin" asp-controller="Product" asp-action="Index" asp-route-IdCuaHang="@Model.IdCuaHang" class="btn btn-primary"> Hủy</a>
                 </div>
             </form>
         </div>

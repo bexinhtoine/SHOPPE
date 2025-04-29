@@ -198,24 +198,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\my-pham.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\118d1339-a3aa-4d04-acb8-bf98b630c46c_Set mô hình Doraemon.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>ShoppeWebApp</SourceId>
@@ -234,131 +216,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\118d1339-a3aa-4d04-acb8-bf98b630c46c_Set mô hình Doraemon.webp'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.webp'))">
       <SourceType>Package</SourceType>
       <SourceId>ShoppeWebApp</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp</RelativePath>
+      <RelativePath>Images/Products/7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.webp</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
+      <Fingerprint>me86onk251</Fingerprint>
+      <Integrity>DgQDOZma9QtBWmrRVI/NO7whHoUjnOElE/EgctGDTsk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\b4b69924-7160-4a6d-a15a-bfe8b6c7fcea_Doraemon nhồi bông.webp'))">
       <SourceType>Package</SourceType>
@@ -377,42 +251,6 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\b4b69924-7160-4a6d-a15a-bfe8b6c7fcea_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp'))">
-      <SourceType>Package</SourceType>
-      <SourceId>ShoppeWebApp</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/ShoppeWebApp</BasePath>
-      <RelativePath>Images/Products/f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>bhwuntibmc</Fingerprint>
-      <Integrity>ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Images\Products\san-pham-01.webp'))">
       <SourceType>Package</SourceType>

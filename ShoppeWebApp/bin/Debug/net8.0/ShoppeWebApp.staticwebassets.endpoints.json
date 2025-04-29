@@ -331,88 +331,6 @@
       ]
     },
     {
-      "Route": "Images/Products/115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:28:01 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/115fff6a-a54c-439b-91e9-a7803dd8f4d0_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:28:01 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
       "Route": "Images/Products/118d1339-a3aa-4d04-acb8-bf98b630c46c_Set mô hình Doraemon.webp",
       "AssetFile": "Images/Products/118d1339-a3aa-4d04-acb8-bf98b630c46c_Set mô hình Doraemon.webp",
       "Selectors": [],
@@ -495,8 +413,8 @@
       ]
     },
     {
-      "Route": "Images/Products/2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp",
+      "Route": "Images/Products/7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.me86onk251.webp",
+      "AssetFile": "Images/Products/7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -509,7 +427,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "107094"
+          "Value": "107866"
         },
         {
           "Name": "Content-Type",
@@ -517,31 +435,31 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
+          "Value": "\"DgQDOZma9QtBWmrRVI/NO7whHoUjnOElE/EgctGDTsk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:30:12 GMT"
+          "Value": "Tue, 29 Apr 2025 05:39:16 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bhwuntibmc"
+          "Value": "me86onk251"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
+          "Value": "sha256-DgQDOZma9QtBWmrRVI/NO7whHoUjnOElE/EgctGDTsk="
         },
         {
           "Name": "label",
-          "Value": "Images/Products/2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp"
+          "Value": "Images/Products/7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.webp"
         }
       ]
     },
     {
-      "Route": "Images/Products/2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/2dbbdb86-cd06-46ca-a270-e649d9183ca9_Doraemon nhồi bông.webp",
+      "Route": "Images/Products/7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.webp",
+      "AssetFile": "Images/Products/7a81f5c6-7823-4808-883c-88bedd1b5535_Móc khóa Doraemon.webp",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -554,7 +472,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "107094"
+          "Value": "107866"
         },
         {
           "Name": "Content-Type",
@@ -562,509 +480,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
+          "Value": "\"DgQDOZma9QtBWmrRVI/NO7whHoUjnOElE/EgctGDTsk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:30:12 GMT"
+          "Value": "Tue, 29 Apr 2025 05:39:16 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:35:29 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/2f8cc1ad-3ce3-43b7-a28e-e042aee41c0a_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:35:29 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:22:43 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/4bf710b5-0222-4fcf-b0bb-70dd2de4a6de_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:22:43 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:40:04 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/548a44bb-9351-4994-b732-d08e430f1bae_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:40:04 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:35:35 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/68ca040d-37ce-447c-95c8-0de4b116dc9e_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:35:35 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:24:14 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/8b422f19-73a3-442c-9dab-58f032f0b825_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:24:14 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:25:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/a09209a4-6dd2-48e9-9f05-26fb6049eb5b_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:25:18 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
+          "Value": "sha256-DgQDOZma9QtBWmrRVI/NO7whHoUjnOElE/EgctGDTsk="
         }
       ]
     },
@@ -1141,170 +567,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Mon, 28 Apr 2025 15:40:35 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:30:00 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/d1f4ab14-a1c8-4b12-bca7-2d09f6a2628b_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:30:00 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.bhwuntibmc.webp",
-      "AssetFile": "Images/Products/f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:28:50 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "bhwuntibmc"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c="
-        },
-        {
-          "Name": "label",
-          "Value": "Images/Products/f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp"
-        }
-      ]
-    },
-    {
-      "Route": "Images/Products/f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp",
-      "AssetFile": "Images/Products/f0af40c9-b86d-4ca1-8e07-c641a147b266_Doraemon nhồi bông.webp",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "107094"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/webp"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ERVmzqhGwLiYjPrdeN8TZyTsGJpIg52kUeN6GAuoe6c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 15:28:50 GMT"
         }
       ],
       "EndpointProperties": [

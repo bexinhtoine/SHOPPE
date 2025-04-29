@@ -120,7 +120,7 @@ namespace ShoppeWebApp.Areas.Admin.Controllers.ProductManager
         
             ViewBag.Categories = categories;
         
-            return View();
+            return View(model);
         }
         
         [HttpPost]
@@ -194,6 +194,63 @@ namespace ShoppeWebApp.Areas.Admin.Controllers.ProductManager
             TempData["SuccessMessage"] = "Thêm sản phẩm thành công!";
             
             return RedirectToAction("Index", new { IdCuaHang = model.IdCuaHang });
+        }
+
+        [HttpGet]
+        public IActionResult DetailsProduct(string IdSanPham, string IdCuaHang)
+        {
+            // Lấy thông tin sản phẩm
+            var product = _context.SanPhams.FirstOrDefault(p => p.IdSanPham == IdSanPham && p.IdCuaHang == IdCuaHang);
+            if (product == null)
+            {
+                return NotFound();
+            }
+        
+            // Lấy thông tin danh mục
+            var danhMuc = _context.DanhMucs.FirstOrDefault(dm => dm.IdDanhMuc == product.IdDanhMuc);
+        
+            // Lấy danh sách đánh giá
+            var danhGias = _context.DanhGia
+                .Where(dg => dg.IdSanPham == IdSanPham)
+                .Select(dg => new DetailsProductViewModel.DanhGiaInfo
+                {
+                    IdDanhGia = dg.IdDanhGia,
+                    IdNguoiDung = dg.IdNguoiDung,
+                    TenNguoiDung = _context.NguoiDungs
+                        .Where(nd => nd.IdNguoiDung == dg.IdNguoiDung)
+                        .Select(nd => nd.HoVaTen)
+                        .FirstOrDefault(),
+                    DiemDanhGia = dg.DiemDanhGia,
+                    NoiDung = dg.NoiDung,
+                    ThoiGianDG = dg.ThoiGianDg
+                })
+                .ToList();
+        
+            // Tính tổng điểm đánh giá và số lượt đánh giá
+            int tongDiemDG = danhGias.Sum(dg => dg.DiemDanhGia);
+            int soLuotDG = danhGias.Count;
+        
+            // Tạo ViewModel
+            var viewModel = new DetailsProductViewModel
+            {
+                IdSanPham = product.IdSanPham,
+                IdCuaHang = product.IdCuaHang,
+                TenSanPham = product.TenSanPham,
+                TenDanhMuc = danhMuc?.TenDanhMuc,
+                UrlAnh = product.UrlAnh,
+                MoTa = product.MoTa,
+                SoLuongKho = product.SoLuongKho,
+                GiaGoc = product.GiaGoc,
+                GiaBan = product.GiaBan,
+                TrangThai = product.TrangThai,
+                TongDiemDG = tongDiemDG,
+                SoLuotDG = soLuotDG,
+                SoLuongBan = product.SoLuongBan,
+                ThoiGianTao = product.ThoiGianTao,
+                DanhGias = danhGias
+            };
+        
+            return View(viewModel);
         }
     }
 }
